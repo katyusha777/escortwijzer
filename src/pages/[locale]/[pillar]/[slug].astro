@@ -70,11 +70,11 @@ if (review) jsonLd.push(reviewJsonLd(article, url));
       <h1 class="display mt-2 text-[1.9rem] leading-tight sm:text-4xl">{article.data.title}</h1>
       <p class="mt-4 max-w-xl text-lg leading-snug text-ink-muted">{article.data.description}</p>
       <p class="mt-4 font-sans text-xs text-ink-muted">
-        {t('published', locale)}
+        {t('published', locale)}{' '}
         <time datetime={article.data.publishedAt.toISOString().slice(0, 10)}>
           {fmtDate(article.data.publishedAt, locale)}
         </time>
-        · {t('updated', locale)}
+        {' · '}{t('updated', locale)}{' '}
         <time datetime={article.data.updatedAt.toISOString().slice(0, 10)}>
           {fmtDate(article.data.updatedAt, locale)}
         </time>
@@ -104,7 +104,7 @@ if (review) jsonLd.push(reviewJsonLd(article, url));
         <p class="mt-4 text-[0.95rem] leading-relaxed">
           <strong class="font-sans text-[0.8rem] uppercase tracking-wider text-ink-muted">
             {t('verdict', locale)}:
-          </strong>
+          </strong>{' '}
           {review.verdict}
         </p>
       </section>
