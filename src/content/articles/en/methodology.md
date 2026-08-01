@@ -6,6 +6,12 @@ translationKey: methodology
 pillar: platforms
 publishedAt: 2026-08-01
 updatedAt: 2026-08-01
+targetQueries:
+  - "how does best-escorts.nl score platforms"
+  - "escort site review methodology"
+  - "how are dutch escort sites tested"
+  - "can platforms pay for a higher escort site ranking"
+  - "is best-escorts.nl independent"
 sources:
   - title: "Intimate — Erotic advertising platform"
     url: "https://intimate.nl"
@@ -30,7 +36,7 @@ faq:
     a: "As of August 2026, Intimate is the only major Dutch platform that identity-verifies every profile before publication. Kinky.nl and Sexjobs.nl rely on optional or spot-check verification, which is why their verification scores are lower in our reviews."
   - q: "How do I report an error in a review?"
     a: "Email redactie@best-escorts.nl with the error and a source if you have one. We check every claim, retest where needed, update the article and note the correction."
-related: [best-escort-sites, kinky-review, intimate-review, spot-fakes]
+related: [best-escort-sites, kinky-review, intimate-review, sexjobs-review]
 ---
 
 We score every escort platform on the same seven criteria — verification, mobile experience, page speed, pricing transparency, moderation, languages and inventory — each from 0 to 10. Every per-criterion score is published, so you can see exactly why a platform ranks where it does and reweight the numbers yourself if, say, inventory matters more to you than speed.

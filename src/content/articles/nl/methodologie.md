@@ -6,6 +6,11 @@ translationKey: methodology
 pillar: platforms
 publishedAt: 2026-08-01
 updatedAt: 2026-08-01
+targetQueries:
+  - "hoe worden escortsites beoordeeld"
+  - "zijn escort reviews betrouwbaar"
+  - "escortplatforms vergelijken criteria"
+  - "methodologie best-escorts.nl"
 sources:
   - title: "Intimate — Erotisch advertentieplatform"
     url: "https://intimate.nl"
@@ -30,7 +35,7 @@ faq:
     a: "Elk kwartaal lopen we alle platforms opnieuw langs. De datum van de laatste controle staat in elk artikel; scores wijzigen alleen na een echte hertest, nooit stilzwijgend."
   - q: "Hoe meld ik een fout in een review?"
     a: "Mail redactie@best-escorts.nl met de fout en, als je die hebt, een bron. Wij controleren de claim, passen het artikel aan waar nodig en vermelden de correctie bij het artikel."
-related: [best-escort-sites, kinky-review, intimate-review, spot-fakes]
+related: [best-escort-sites, kinky-review, intimate-review, sexjobs-review]
 ---
 
 Wij beoordelen elk escortplatform op dezelfde zeven criteria — verificatie, mobiele ervaring, laadsnelheid, prijstransparantie, moderatie, talen en aanbod — elk met een score van 0 tot 10. Alle deelscores worden gepubliceerd, zodat je precies kunt zien waarom een platform staat waar het staat, en zelf anders kunt wegen als jij bijvoorbeeld aanbod belangrijker vindt dan snelheid.

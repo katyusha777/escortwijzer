@@ -6,6 +6,13 @@ translationKey: kinky-review
 pillar: platforms
 publishedAt: 2026-08-01
 updatedAt: 2026-08-01
+targetQueries:
+  - "kinky.nl review"
+  - "is kinky.nl legit"
+  - "kinky.nl fake profiles"
+  - "does kinky.nl verify advertisers"
+  - "kinky.nl alternative"
+  - "can I use kinky.nl in english"
 sources:
   - title: "Kinky.nl"
     url: "https://www.kinky.nl"
@@ -33,8 +40,8 @@ faq:
     a: "The platform and most listings are in Dutch, aimed at the Netherlands and Flanders. Some advertisers write in English by choice, but there is no full English interface, so non-Dutch speakers will need browser translation."
 related:
   - intimate-review
+  - kinky-vs-intimate
   - best-escort-sites
-  - methodology
   - spot-fakes
 review:
   platform: "Kinky.nl"

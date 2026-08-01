@@ -26,13 +26,11 @@ const img = ARTICLE_IMG[article.data.translationKey];
     <div>
       <span class="flex flex-wrap items-center gap-2">
         {featured && (
-          <span class="chip !border-transparent bg-accent text-white !py-1.5 !text-[0.72rem]">
+          <span class="chip chip-sm !border-transparent bg-accent text-white">
             {t('latest', locale)}
           </span>
         )}
-        <span class="chip chip-on-wash !py-1.5 !text-[0.72rem] !border-current/30">
-          {pillar.name[locale]}
-        </span>
+        <span class="chip chip-sm chip-on-wash">{pillar.name[locale]}</span>
       </span>
       <h3
         class:list={[

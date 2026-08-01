@@ -8,7 +8,7 @@ export const ORG_NAME = 'Best Escorts Redactie';
 export const LOCALES = ['nl', 'en'] as const; // 'de' is a fast-follow: add here + translate content
 export type Locale = (typeof LOCALES)[number];
 
-export type Pillar = 'law' | 'guides' | 'platforms' | 'cities';
+export type Pillar = 'law' | 'guides' | 'platforms' | 'cities' | 'meta';
 
 export const PILLARS: Record<
   Pillar,
@@ -44,6 +44,14 @@ export const PILLARS: Record<
     intro: {
       nl: 'Stadsgidsen: de lokale scene, regels en praktische informatie per stad.',
       en: 'City guides: the local scene, rules and practical information per city.',
+    },
+  },
+  meta: {
+    slug: { nl: 'naslag', en: 'reference' },
+    name: { nl: 'Naslag', en: 'Reference' },
+    intro: {
+      nl: 'Woordenboek en veelgestelde vragen: elk begrip en elke vraag, kort en feitelijk beantwoord.',
+      en: 'Glossary and frequently asked questions: every term and question, answered briefly and factually.',
     },
   },
 };
@@ -100,6 +108,7 @@ export const UI: Record<string, Record<Locale, string>> = {
   },
   skipToContent: { nl: 'Naar inhoud', en: 'Skip to content' },
   minRead: { nl: 'min leestijd', en: 'min read' },
+  changelogLabel: { nl: 'Wijzigingen', en: 'Changes' },
   latest: { nl: 'Nieuwste', en: 'Latest' },
   heroTitle: { nl: 'De eerlijke gids.', en: 'The honest guide.' },
   heroBadge: { nl: 'Onafhankelijk & redactioneel', en: 'Independent & editorial' },

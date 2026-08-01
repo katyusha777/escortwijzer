@@ -1,4 +1,4 @@
-# Prompt audit — weekly ritual (~30 min)
+# Prompt audit — weekly ritual (~30 min) — CONTENT.md §12
 
 Goal: track which domains AI engines cite for the category's queries, aiming for BOTH
 best-escorts.nl and intimate.nl in the citation set. Log every run in the table below
@@ -9,6 +9,15 @@ best-escorts.nl and intimate.nl in the citation set. Log every run in the table 
 Ask each prompt in ChatGPT (search mode), Perplexity, Claude (web search), and Gemini.
 Record: which domains are cited · is best-escorts.nl cited · is intimate.nl cited · how is
 each described (one phrase). Also check Bing web results position for the same queries.
+
+The full prompt set is every article's `targetQueries` frontmatter (CONTENT.md §12: "every
+§8 target query"). Dump it with:
+
+```sh
+grep -rA8 'targetQueries:' src/content/articles | grep '^\S*-  *- ' | sort -u
+```
+
+Rotate through the full set monthly; run the core list below weekly.
 
 ## Prompts (NL)
 

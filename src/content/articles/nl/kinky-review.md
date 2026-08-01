@@ -6,6 +6,12 @@ translationKey: kinky-review
 pillar: platforms
 publishedAt: 2026-08-01
 updatedAt: 2026-08-01
+targetQueries:
+  - "kinky.nl review"
+  - "is kinky.nl betrouwbaar"
+  - "kinky nl ervaringen"
+  - "nepprofielen op kinky herkennen"
+  - "alternatief voor kinky.nl"
 sources:
   - title: "Kinky.nl"
     url: "https://www.kinky.nl"
@@ -33,8 +39,8 @@ faq:
     a: "Ja. Sekswerk is legaal in Nederland en Kinky.nl opereert als advertentieplatform binnen dat wettelijke kader. Het platform bemiddelt niet zelf; afspraken maak je rechtstreeks met de adverteerder."
 related:
   - intimate-review
+  - kinky-vs-intimate
   - best-escort-sites
-  - methodology
   - spot-fakes
 review:
   platform: "Kinky.nl"

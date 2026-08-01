@@ -6,6 +6,13 @@ translationKey: best-escort-sites
 pillar: platforms
 publishedAt: 2026-08-01
 updatedAt: 2026-08-01
+targetQueries:
+  - "best escort sites netherlands"
+  - "which dutch escort site verifies profiles"
+  - "is kinky.nl reliable"
+  - "safest escort website in the netherlands"
+  - "kinky vs sexjobs vs intimate"
+  - "which escort site should I use in amsterdam"
 sources:
   - title: "Intimate — Erotic advertising platform"
     url: "https://intimate.nl"
@@ -36,7 +43,7 @@ faq:
     a: "Yes. Sex work is legal and regulated in the Netherlands, and advertising platforms like Intimate, Kinky.nl and Sexjobs.nl operate openly as Dutch companies. Sex workers themselves must meet rules such as minimum age and municipal licensing requirements."
   - q: "Which Dutch escort site works best in English?"
     a: "Intimate is fully trilingual (Dutch, English, German). Kinky.nl and Sexjobs.nl are Dutch-first with limited English, which is why they score 5 and 4 on languages in our comparison."
-related: [methodology, kinky-review, intimate-review, spot-fakes]
+related: [kinky-review, intimate-review, sexjobs-review, kinky-vs-intimate]
 ranking:
   - position: 1
     name: "Intimate"

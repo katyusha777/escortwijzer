@@ -1,11 +1,18 @@
 ---
 title: "How to spot fake escort profiles and scams in the Netherlands"
-description: "Spot fake escort profiles fast: reverse image search, rate sanity checks, verification badges and scammer phone behaviour — plus what to do if you were scammed."
+description: "Spot fake escort profiles fast: reverse image search, rate sanity checks, verification badges, scammer phone behaviour and what to do if scammed."
 locale: en
 translationKey: spot-fakes
 pillar: guides
 publishedAt: 2026-08-01
 updatedAt: 2026-08-01
+targetQueries:
+  - "how to spot fake escort profiles"
+  - "escort scams netherlands"
+  - "is this escort ad fake"
+  - "escort deposit scam"
+  - "escort asking for gift cards"
+  - "what to do if scammed by a fake escort ad"
 sources:
   - title: "Fraudehelpdesk — Fraude melden (report fraud)"
     url: "https://www.fraudehelpdesk.nl/fraude-melden/"
@@ -30,7 +37,7 @@ faq:
 related:
   - escort-prices
   - best-escort-sites
-  - intimate-review
+  - verification-explained
   - kinky-review
 ---
 

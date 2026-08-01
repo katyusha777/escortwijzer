@@ -6,6 +6,13 @@ translationKey: escort-prices
 pillar: guides
 publishedAt: 2026-08-01
 updatedAt: 2026-08-01
+targetQueries:
+  - "how much does an escort cost in the netherlands"
+  - "escort prices amsterdam"
+  - "average escort rate per hour netherlands"
+  - "do you tip escorts in the netherlands"
+  - "how much should I budget for an escort in amsterdam"
+  - "why are some escort ads so cheap"
 sources:
   - title: "Prostitutie — Rijksoverheid"
     url: "https://www.rijksoverheid.nl/onderwerpen/prostitutie"
@@ -27,7 +34,7 @@ faq:
 related:
   - spot-fakes
   - is-escort-legal
-  - best-escort-sites
+  - forms-difference
   - escort-amsterdam
 ---
 
@@ -76,7 +83,7 @@ Always compare rates across more than one platform; our overview of the [best es
 
 **No — tipping is not expected in the Netherlands, and nobody will think less of you for paying exactly the agreed rate.** This surprises American visitors in particular, where tipping is customary in the industry. Dutch service culture treats the quoted price as the full price.
 
-If you want to give something extra after a genuinely good experience, rounding up (€250 instead of €230) or adding around 10% is the usual gesture. Offering a tip in advance to unlock "something extra" lands badly: the agreed framework is the framework. For more on how first appointments work, see our [first-time etiquette guide](/en/guides/escort-etiquette-first-time/).
+If you want to give something extra after a genuinely good experience, rounding up (€250 instead of €230) or adding around 10% is the usual gesture. Offering a tip in advance to get "something extra" lands badly: the agreed framework is the framework. For more on how first appointments work, see our [first-time etiquette guide](/en/guides/escort-etiquette-first-time/).
 
 ## How do you pay — and which payment requests are scams?
 

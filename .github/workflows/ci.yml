@@ -15,6 +15,7 @@ jobs:
       - uses: oven-sh/setup-bun@v2
       - run: bun install --frozen-lockfile
       - run: bun run check
+      - run: bun run lint:content
       - run: bun run build
       - run: bun run verify
 

@@ -1,11 +1,18 @@
 ---
 title: "Escort in Amsterdam: de complete gids (regels, prijzen, wijken)"
-description: "Escort is legaal in Amsterdam via vergunde bureaus en zelfstandigen. Alles over de regels, realistische prijzen, De Wallen en het gesneuvelde erotisch centrum."
+description: "Escort is legaal in Amsterdam via vergunde bureaus en zelfstandigen. De regels, realistische prijzen, De Wallen en het gesneuvelde erotisch centrum."
 locale: nl
 translationKey: escort-amsterdam
 pillar: cities
 publishedAt: 2026-08-01
 updatedAt: 2026-08-01
+targetQueries:
+  - "escort amsterdam"
+  - "escort boeken in amsterdam"
+  - "is escort legaal in amsterdam"
+  - "prostitutie regels amsterdam"
+  - "mag een escort naar mijn hotel in amsterdam"
+  - "komt het erotisch centrum in amsterdam er nog"
 sources:
   - title: "Algemene Plaatselijke Verordening 2008 — gemeente Amsterdam"
     url: "https://lokaleregelgeving.overheid.nl/CVDR72510/36"
@@ -36,8 +43,8 @@ faq:
 related:
   - is-escort-legal
   - escort-prices
-  - spot-fakes
-  - best-escort-sites
+  - forms-difference
+  - escort-rotterdam
 ---
 
 Escort is volledig legaal in Amsterdam: sekswerk tussen instemmende volwassenen is in heel Nederland toegestaan, en de gemeente reguleert de branche via een vergunningplicht in de Algemene Plaatselijke Verordening (APV). Wie in Amsterdam een escort boekt via een vergund bureau of een geverifieerde zelfstandige, doet dus niets verbodens — de grenzen liggen bij onvergunde bemiddeling, straatprostitutie en werkers onder de 21 jaar.
@@ -106,7 +113,7 @@ De vier regels:
 
 1. **Controleer het profiel.** Geverifieerde foto's, consistente advertentiegeschiedenis, een telefoonnummer dat niet aan tien profielen hangt. Onze gids [nepprofielen herkennen](/nl/gidsen/nepprofielen-herkennen/) loopt alle controles langs.
 2. **Betaal nooit vooraf op afstand.** Geen betaallinks, cadeaukaarten of crypto "ter bevestiging". Contant bij aanvang is de norm; alles daarbuiten is bij een onbekende aanbieder een rode vlag.
-3. **Vraag bij bureaus naar de vergunning.** Een legaal Amsterdams escortbureau heeft een exploitatievergunning van de gemeente en draait er niet omheen als je ernaar vraagt.
+3. **Vraag bij bureaus naar de vergunning.** Een legaal Amsterdams escortbureau heeft een exploitatievergunning van de gemeente en draait er niet omheen als je ernaar vraagt. De zwakte van deze route: de gemeente publiceert geen doorzoekbaar register van vergunde escortbureaus, dus je bent deels aangewezen op wat het bureau zelf zegt.
 4. **Vermijd straataanbod volledig.** Straatwerving is verboden (APV artikel 2.12) én het klassieke voorportaal van beroving of oplichting.
 
 Ook voor Amsterdammers zelf geldt: de taxichauffeur-truc en de "aanbieding" bij de deur van een niet-vergunde club draaien op commissie en gepeperde eindafrekeningen. Wie in deze stad iets aangeboden krijgt zonder er zelf om gevraagd te hebben, betaalt vrijwel altijd het leergeld. De legale route — platform, verificatie, vooraf bevestigde afspraak, contant bij aanvang — is niet alleen veiliger, maar in de praktijk ook gewoon goedkoper.

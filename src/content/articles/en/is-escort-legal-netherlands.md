@@ -1,11 +1,18 @@
 ---
 title: "Is escort legal in the Netherlands? The law explained (2026)"
-description: "Sex work and booking an escort are legal in the Netherlands for adults. What is illegal, the rules in Amsterdam and other cities, and the 2026 legal changes."
+description: "Sex work and booking an escort are legal in the Netherlands for adults. What is illegal, the rules in Amsterdam and other cities, and the 2026 changes."
 locale: en
 translationKey: is-escort-legal
 pillar: law
 publishedAt: 2026-08-01
 updatedAt: 2026-08-01
+targetQueries:
+  - "is escort legal in the netherlands"
+  - "is prostitution legal in amsterdam"
+  - "can you legally book an escort in the netherlands"
+  - "netherlands escort laws 2026"
+  - "can I get in trouble for hiring an escort in the netherlands"
+  - "how old does an escort have to be in the netherlands"
 sources:
   - title: "Prostitution"
     url: "https://www.government.nl/topics/prostitution"
@@ -53,8 +60,8 @@ faq:
 related:
   - escort-amsterdam
   - escort-prices
-  - best-escort-sites
-  - spot-fakes
+  - forms-difference
+  - client-rules
 ---
 
 Yes, escorts are legal in the Netherlands. Sex work by consenting adults is a recognised profession, and paying for it is not a crime for the client. The Dutch government states it plainly: prostitution is legal as long as it involves sex between consenting adults. In 2000 the Netherlands became the first country in Europe to take the running of sex businesses out of criminal law — brothels, clubs and escort agencies have been legal, licensed businesses ever since.
@@ -81,7 +88,7 @@ The aim was twofold: regulate the legal part of the industry through municipal l
 
 Both — but the practical rules mostly come from the city. Criminal law (the age limit, coercion, trafficking) is national. Licensing is set by each municipality in its APV (Algemene Plaatselijke Verordening — the local bylaw every Dutch municipality maintains).
 
-That is why the details vary by city: how many sex businesses are allowed, whether the minimum age at licensed businesses is 18 or 21, and whether independent sex workers may receive clients at home. Almost every municipal regime shares the same core: an operating licence for escort agencies, window brothels, clubs and erotic massage parlours, an approved business plan, and an integrity screening of the operator under the Bibob Act. There is still no uniform national system — creating one was the goal of the now-abandoned sex work regulation bill (more below).
+That is why the details vary by city: how many sex businesses are allowed, whether the minimum age at licensed businesses is 18 or 21, and whether independent sex workers may receive clients at home. Almost every municipal regime shares the same core: an operating licence for escort agencies, window brothels, clubs and erotic massage parlours, an approved business plan, and an integrity screening of the operator under the Bibob Act. There is still no uniform national system — creating one was the goal of the now-abandoned sex work regulation bill (more below). In our view that patchwork is the system's main weakness — a rule that applies in Rotterdam may not apply in Utrecht — but a licensed, city-regulated industry still beats criminalisation, because inspections, tax registration and reporting channels only exist where the work is legal.
 
 ## Is escort legal in Amsterdam?
 
@@ -125,6 +132,6 @@ By checking three things: age, consent, and the channel you book through. A clie
 
 - **Age.** Never book when age is in doubt. "I didn't know" is no defence: Articles 245 and 246 Sr criminalise the client regardless of what they knew. Licensed agencies and serious platforms check ID — and since 1 April 2026 an ID check on new advertisements is mandatory.
 - **Consent.** Signs of coercion — someone else handles all communication, the escort cannot say no, she has no phone of her own — are reason to walk away immediately; suspicions can be reported anonymously via Meld Misdaad Anoniem (0800-7000).
-- **Channel.** Book through a licensed escort agency or a platform that verifies advertisers; our comparison of the [best escort sites in the Netherlands](/en/platforms/best-escort-sites-netherlands/) shows which platforms genuinely check age and identity. Fake ads are the biggest practical risk for visitors — learn to [spot fake escort profiles](/en/guides/spot-fake-escort-profiles/) before you book. And to know what a legitimate booking should cost, see our guide to [escort prices in the Netherlands](/en/guides/escort-prices-netherlands/).
+- **Channel.** Book through a licensed escort agency or a platform that verifies advertisers; our comparison of the [best escort sites in the Netherlands](/en/platforms/best-escort-sites-netherlands/) shows which platforms genuinely check age and identity. The honest catch of the verified route: platforms that check every profile carry fewer of them, so expect less choice than on the open marketplaces. Fake ads are the biggest practical risk for visitors — learn to [spot fake escort profiles](/en/guides/spot-fake-escort-profiles/) before you book. And to know what a legitimate booking should cost, see our guide to [escort prices in the Netherlands](/en/guides/escort-prices-netherlands/).
 
 The bottom line is simple: escorts are legal in the Netherlands, and deliberately so since 1 October 2000. The law is not aimed at the client who books an adult escort working of her own free will — it targets whoever pays minors, exploits people or operates without a licence. Run the three checks above and you are on solid legal ground, in Amsterdam, Rotterdam, The Hague, Utrecht and every other Dutch municipality.

@@ -93,7 +93,7 @@ const currentPillarSlug = path.split('/')[2] ?? '';
                 href={alternates[l] ?? `/${l}/`}
                 aria-current={l === locale ? 'true' : undefined}
                 class:list={[
-                  'chip chip-band !px-3 !py-1.5 !text-[0.7rem] uppercase tracking-wider',
+                  'chip chip-sm chip-band uppercase tracking-wider',
                   l === locale && 'chip-active',
                 ]}
               >

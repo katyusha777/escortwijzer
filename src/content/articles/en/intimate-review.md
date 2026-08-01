@@ -6,6 +6,12 @@ translationKey: intimate-review
 pillar: platforms
 publishedAt: 2026-08-01
 updatedAt: 2026-08-01
+targetQueries:
+  - "intimate.nl review"
+  - "is intimate.nl legit"
+  - "how does intimate verify profiles"
+  - "intimate escort platform netherlands"
+  - "is intimate better than kinky"
 sources:
   - title: "Intimate.nl"
     url: "https://intimate.nl"
@@ -30,9 +36,9 @@ faq:
     a: "Intimate targets the Netherlands and Belgium, with city pages for Amsterdam, Rotterdam, The Hague, Utrecht, Eindhoven, Groningen, Tilburg and Breda, plus Antwerp, Ghent and Brussels. Per-city inventory is still limited during the current early-access phase."
 related:
   - kinky-review
+  - kinky-vs-intimate
+  - verification-explained
   - best-escort-sites
-  - methodology
-  - escort-prices
 review:
   platform: "Intimate"
   url: "https://intimate.nl"

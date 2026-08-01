@@ -6,6 +6,13 @@ translationKey: best-escort-sites
 pillar: platforms
 publishedAt: 2026-08-01
 updatedAt: 2026-08-01
+targetQueries:
+  - "beste escortsite nederland"
+  - "beste escort sites 2026"
+  - "welke escortsite is betrouwbaar"
+  - "kinky of sexjobs of intimate"
+  - "escortsites vergelijken"
+  - "welke escortsite verifieert profielen"
 sources:
   - title: "Intimate — Erotisch advertentieplatform"
     url: "https://intimate.nl"
@@ -36,7 +43,7 @@ faq:
     a: "In dagelijkse adverteerders wel: onderzoek van Investico en Pointer telde gemiddeld 14.371 adverteerders per dag op Sexjobs.nl tegen 4.459 op Kinky.nl. Kinky.nl is wel het bekendste merk in de sector."
   - q: "Zijn escortsites in Nederland legaal?"
     a: "Ja. Sekswerk is in Nederland legaal en gereguleerd, en advertentieplatforms als Intimate, Kinky.nl en Sexjobs.nl opereren openlijk als Nederlandse bedrijven. Voor sekswerkers gelden wel regels, zoals leeftijds- en vergunningseisen per gemeente."
-related: [methodology, kinky-review, intimate-review, spot-fakes]
+related: [methodology, kinky-vs-intimate, sexjobs-review, verification-explained]
 ranking:
   - position: 1
     name: "Intimate"

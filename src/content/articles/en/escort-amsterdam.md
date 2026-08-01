@@ -1,11 +1,18 @@
 ---
 title: "Escorts in Amsterdam: the complete 2026 guide for visitors"
-description: "Escorts are legal in Amsterdam via licensed agencies and independents. The rules, realistic prices, hotel visits, De Wallen etiquette and the scams to avoid."
+description: "Escorts are legal in Amsterdam via licensed agencies and independents. The rules, prices, hotel visits, De Wallen etiquette and the scams to avoid."
 locale: en
 translationKey: escort-amsterdam
 pillar: cities
 publishedAt: 2026-08-01
 updatedAt: 2026-08-01
+targetQueries:
+  - "escorts in amsterdam"
+  - "is it legal to hire an escort in amsterdam"
+  - "can an escort visit my hotel in amsterdam"
+  - "amsterdam red light district rules"
+  - "how much is an escort in amsterdam"
+  - "is the amsterdam red light district closing"
 sources:
   - title: "Prostitution — Government of the Netherlands"
     url: "https://www.government.nl/topics/prostitution"
@@ -36,8 +43,8 @@ faq:
 related:
   - is-escort-legal
   - escort-prices
+  - amsterdam-tourist
   - spot-fakes
-  - best-escort-sites
 ---
 
 Hiring an escort in Amsterdam is fully legal: sex work between consenting adults is permitted throughout the Netherlands, and Amsterdam regulates the industry through municipal licensing — escort agencies need an operating permit from the city, just like the famous window brothels. As a visitor, booking a licensed agency escort or a verified independent to your hotel is a lawful, well-trodden path; the illegal edges are street solicitation, unlicensed middlemen and anyone under 21.
@@ -96,7 +103,7 @@ What this means for a visitor is simple: De Wallen isn't going anywhere. The win
 
 Three zones host licensed windows; escorts, by nature, work city-wide. Each zone has its own character:
 
-- **De Wallen (Red Light District).** The oldest and largest window area — and, crucially, a living neighbourhood of around 9,000 residents layered with bars, coffeeshops and galleries. It is heavily policed at night, and the city has spent recent years tightening rules on crowds, drinking on the street and tour groups.
+- **De Wallen (Red Light District).** The oldest and largest window area — and a living neighbourhood of around 9,000 residents layered with bars, coffeeshops and galleries. It is heavily policed at night, and the city has spent recent years tightening rules on crowds, drinking on the street and tour groups.
 - **Singelgebied.** A smaller cluster of windows near the Singel canal by Nieuwendijk. Same licensing regime, a fraction of the crowds.
 - **Ruysdaelkade (De Pijp).** The "local" strip along the canal in De Pijp, outside the tourist flow. No party circus around it; the clientele is more Amsterdam than abroad.
 

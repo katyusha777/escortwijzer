@@ -10,10 +10,12 @@ export async function allArticles(): Promise<Article[]> {
 }
 
 // Definition of done: build fails on missing translationKey pairs.
-// Every translationKey must exist in every launch locale (nl + en).
+// Every translationKey must exist in every launch locale (nl + en),
+// except articles marked solo (CONTENT.md §8 locale-specific pieces).
 function assertTranslationPairs(entries: Article[]) {
   const byKey = new Map<string, Set<string>>();
   for (const e of entries) {
+    if (e.data.solo) continue;
     const set = byKey.get(e.data.translationKey) ?? new Set();
     set.add(e.data.locale);
     byKey.set(e.data.translationKey, set);

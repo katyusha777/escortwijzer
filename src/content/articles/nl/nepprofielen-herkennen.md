@@ -1,11 +1,18 @@
 ---
 title: "Nepprofielen en scams herkennen: zo check je een escortadvertentie"
-description: "Zo herken je nep-escortprofielen: omgekeerd zoeken op foto's, tariefcheck, verificatiebadges en de vaste trucs van oplichters — plus wat je doet na oplichting."
+description: "Zo herken je nep-escortprofielen: omgekeerd zoeken op foto's, tariefcheck, verificatiebadges, de vaste trucs van oplichters en wat je doet na oplichting."
 locale: nl
 translationKey: spot-fakes
 pillar: guides
 publishedAt: 2026-08-01
 updatedAt: 2026-08-01
+targetQueries:
+  - "nep escortadvertentie herkennen"
+  - "escort scam herkennen"
+  - "is deze escortadvertentie echt"
+  - "escort vraagt aanbetaling oplichting"
+  - "opgelicht via escortadvertentie wat nu"
+  - "escort afpersing whatsapp"
 sources:
   - title: "Fraudehelpdesk — Fraude melden"
     url: "https://www.fraudehelpdesk.nl/fraude-melden/"
@@ -28,9 +35,9 @@ faq:
   - q: "Word ik strafbaar als ik aangifte doe na een escort-scam?"
     a: "Nee. Een escort boeken is legaal in Nederland, dus je meldt gewoon oplichting. De politie behandelt het als fraudezaak; schaamte is precies waar oplichters op rekenen."
 related:
+  - verification-explained
   - escort-prices
   - best-escort-sites
-  - intimate-review
   - kinky-review
 ---
 

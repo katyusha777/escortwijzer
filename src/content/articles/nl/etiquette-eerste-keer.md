@@ -6,6 +6,13 @@ translationKey: etiquette-first-time
 pillar: guides
 publishedAt: 2026-08-01
 updatedAt: 2026-08-01
+targetQueries:
+  - "hoe boek je een escort"
+  - "escort etiquette"
+  - "eerste keer escort wat te verwachten"
+  - "hoe werkt een escortafspraak"
+  - "is screening door een escort normaal"
+  - "escortafspraak annuleren"
 sources:
   - title: "Prostitutie — Rijksoverheid"
     url: "https://www.rijksoverheid.nl/onderwerpen/prostitutie"
@@ -22,7 +29,8 @@ faq:
 related:
   - escort-prices
   - spot-fakes
-  - is-escort-legal
+  - client-rules
+  - verification-explained
 ---
 
 Een escortafspraak werkt in de kern heel simpel: je stuurt een beleefd bericht met datum, duur en locatie, je beantwoordt eventuele screeningsvragen, en je bevestigt tarief en verwachtingen vooraf. Op de afspraak zelf betaal je direct bij binnenkomst, ben je fris gedoucht, en behandel je de ander zoals je zelf behandeld wilt worden — meer geheim is er niet.
@@ -47,6 +55,8 @@ Screening is tweerichtingsverkeer: de escort screent jou op veiligheid, en jij m
 
 Voor de sekswerker is screening de belangrijkste veiligheidsmaatregel die er bestaat. Zij of hij stapt een kamer binnen met iemand die volslagen onbekend is; een naam, een nummer dat klopt en een normaal gesprek vooraf filteren het overgrote deel van de problemen eruit. Wie screening weigert of er lacherig over doet, wordt geweigerd — terecht.
 
+De keerzijde van screening verdient wel een eerlijke vermelding: jij geeft je naam, nummer en soms je hotelgegevens aan iemand die je nog nooit hebt ontmoet. Dat is de prijs van het systeem — deel wat gevraagd wordt, maar niet meer dan dat.
+
 Voor jou geldt het spiegelbeeld. Controleer of foto's consistent zijn, of het profiel geverifieerd is op het platform, en of het telefoonnummer niet aan tien verschillende advertenties hangt. Betaal nooit vooraf via een betaallink, cadeaukaart of crypto "om de afspraak te bevestigen" — dat is in vrijwel alle gevallen oplichting. Legitieme escorts vragen geen aanbetaling via anonieme kanalen; hooguit een kleine, verifieerbare aanbetaling bij lange boekingen via een traceerbaar kanaal.
 
 Sekswerk tussen instemmende volwassenen is legaal in Nederland; screening en verificatie zijn precies de mechanismen die de legale markt onderscheiden van de louche randen ervan.
@@ -60,7 +70,7 @@ De regel is simpel: het afgesproken bedrag, contant, aan het begin van de afspra
 - **Nooit afdingen bij de deur.** Het tarief is bevestigd toen je boekte. Bij aankomst opeens minder bieden is de klassieke manier om de afspraak per direct beëindigd te zien — en om op een zwarte lijst te belanden. Vind je een tarief te hoog, boek dan gewoon niet, of kies een kortere duur.
 - **Gepast geld.** Neem het exacte bedrag mee. "Heb je wisselgeld?" is geen goede opening.
 
-Wat een realistisch tarief eigenlijk is — per uur, per stad, incall versus outcall — lees je in onze [escort prijzengids](/nl/gidsen/escort-prijzen/). Kort gezegd: een tarief dat te mooi lijkt om waar te zijn, is meestal een nepprofiel of een lokprijs.
+Wat een realistisch tarief eigenlijk is — per uur, per stad, incall versus outcall — lees je in onze [escort prijzengids](/nl/gidsen/escort-prijzen/). Kort gezegd: reken bij een zelfstandige escort op €150 tot €250 per uur, en weet dat een tarief dat te mooi lijkt om waar te zijn meestal een nepprofiel of een lokprijs is.
 
 ## Welke hygiëne wordt verwacht?
 

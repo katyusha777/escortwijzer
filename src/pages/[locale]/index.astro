@@ -96,7 +96,11 @@ const title =
   </section>
 
   <!-- Bento grid -->
-  <section class="mt-14 grid gap-5 sm:mt-20 sm:grid-cols-2">
+  <div class="mt-14 flex items-center gap-4 sm:mt-20">
+    <h2 class="eyebrow text-accent-ink">{t('allArticles', locale)}</h2>
+    <span class="h-px flex-1 bg-rule-strong" aria-hidden="true"></span>
+  </div>
+  <section class="mt-6 grid gap-5 sm:grid-cols-2">
     {featured && <ArticleCard article={featured} featured />}
     {rest.map((a) => (
       <ArticleCard article={a} />

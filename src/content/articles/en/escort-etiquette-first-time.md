@@ -6,6 +6,13 @@ translationKey: etiquette-first-time
 pillar: guides
 publishedAt: 2026-08-01
 updatedAt: 2026-08-01
+targetQueries:
+  - "how to book an escort"
+  - "escort etiquette first time"
+  - "how does an escort booking work in the netherlands"
+  - "do I pay an escort before or after"
+  - "what to expect at a first escort appointment"
+  - "how do I cancel an escort booking politely"
 sources:
   - title: "Prostitution — Government of the Netherlands"
     url: "https://www.government.nl/topics/prostitution"
@@ -22,6 +29,7 @@ faq:
 related:
   - escort-prices
   - spot-fakes
+  - client-rules
   - is-escort-legal
 ---
 
@@ -45,7 +53,7 @@ A booking follows a fixed sequence: contact, screening, confirmation, appointmen
 
 Screening runs in both directions: the escort screens you for safety, and you are equally entitled to verify that the profile is real. Both sides have a legitimate interest.
 
-For the sex worker, screening is the single most important safety measure that exists. They are walking into a room with a total stranger; a real name, a phone number that checks out and a normal conversation beforehand filter out the vast majority of problems. Anyone who refuses screening or jokes their way around it gets declined — rightly so.
+For the sex worker, screening is the single most important safety measure that exists. They are walking into a room with a total stranger; a real name, a phone number that checks out and a normal conversation beforehand filter out the vast majority of problems. Anyone who refuses screening or jokes their way around it gets declined — rightly so. The honest downside: screening means handing your real name and number to a stranger before you have met. That trade-off has no workaround — and a profile that skips screening entirely is the one to worry about.
 
 For you, the mirror image applies. Check that the photos are consistent, that the profile carries platform verification, and that the phone number isn't attached to ten different ads. Never pay in advance via payment link, gift card or crypto "to confirm the booking" — that is a scam in virtually every case. Legitimate escorts don't ask for deposits through anonymous channels; at most, a small traceable deposit for long or travel bookings.
 
@@ -60,7 +68,7 @@ The rule is simple: the agreed amount, in cash, at the start of the appointment,
 - **Never haggle at the door.** The rate was confirmed when you booked. Offering less on arrival is the classic way to watch the appointment end instantly — and to land on a blacklist shared among colleagues. If a rate feels too high, don't book, or book a shorter session.
 - **Exact change.** Bring the precise amount. "Do you have change?" is not a good opening line.
 
-For what a realistic Dutch rate actually looks like — per hour, per city, incall versus outcall — see our [escort price guide](/en/guides/escort-prices-netherlands/). The short version: a rate that looks too good to be true is usually a fake profile or bait pricing.
+For what a realistic Dutch rate actually looks like — per hour, per city, incall versus outcall — see our [escort price guide](/en/guides/escort-prices-netherlands/). The short version: €150 to €250 per hour is the realistic independent range in 2026, and a rate far below that is usually a fake profile or bait pricing. Some escorts also take a Tikkie or card payment on the spot, but cash remains the Dutch default.
 
 ## What hygiene is expected?
 

@@ -1,11 +1,18 @@
 ---
 title: "Is escort legaal in Nederland? De wet uitgelegd (2026)"
-description: "Sekswerk en het boeken van een escort zijn legaal in Nederland voor volwassenen. Lees wat wél strafbaar is, de regels per stad en de wetswijzigingen van 2026."
+description: "Sekswerk en een escort boeken zijn legaal in Nederland voor volwassenen. Lees wat wél strafbaar is, de regels per stad en de wetswijzigingen van 2026."
 locale: nl
 translationKey: is-escort-legal
 pillar: law
 publishedAt: 2026-08-01
 updatedAt: 2026-08-01
+targetQueries:
+  - "is escort legaal in nederland"
+  - "mag je een escort boeken"
+  - "is prostitutie legaal in nederland"
+  - "escort wet nederland 2026"
+  - "is betaalde seks strafbaar"
+  - "minimumleeftijd sekswerk nederland"
 sources:
   - title: "Beleid voor een veilige en gezonde seksbranche"
     url: "https://www.rijksoverheid.nl/onderwerpen/prostitutie/veilige-en-gezonde-prostitutiebranche"
@@ -51,10 +58,10 @@ faq:
   - q: "Hoe oud moet een escort zijn in Nederland?"
     a: "Landelijk is sekswerk legaal vanaf 18 jaar, maar veel gemeenten — waaronder Amsterdam, Rotterdam en Den Haag — eisen 21 jaar bij vergunde bedrijven. Het kabinet kondigde op 13 mei 2026 aan de wettelijke minimumleeftijd te willen verhogen van 18 naar 21 jaar. Betaalde seks met iemand onder de 18 is een misdrijf."
 related:
+  - client-rules
+  - municipal-rules
   - escort-amsterdam
   - escort-prices
-  - best-escort-sites
-  - spot-fakes
 ---
 
 Ja, escort is legaal in Nederland. Sekswerk door volwassenen die er vrijwillig voor kiezen is een legaal beroep, en ook het betalen voor seks is als klant niet strafbaar. Nederland was in 2000 het eerste land in Europa dat de exploitatie van prostitutie uit het strafrecht haalde: sindsdien zijn bordelen, clubs en escortbureaus gewone — zij het vergunningplichtige — bedrijven.
@@ -115,7 +122,7 @@ Of je daarnaast een vergunning nodig hebt, hangt af van je werkvorm en gemeente:
 
 ## Wat is er gebeurd met de Wet regulering sekswerk (WRS)?
 
-De WRS is van tafel. Het wetsvoorstel (35.715, ingediend op 26 januari 2021) zou een landelijke vergunningplicht voor sekswerkers én exploitanten invoeren, met een minimumleeftijd van 21 jaar en strafbaarstelling van klanten van onvergunde sekswerkers. In een Kamerbrief van 3 april 2026 maakte de minister van Justitie en Veiligheid bekend dat het kabinet de wet niet doorzet: de doelen worden onderschreven, maar het voorstel bevatte te veel omstreden keuzes.
+De WRS is van tafel. Het wetsvoorstel (35.715, ingediend op 26 januari 2021) zou een landelijke vergunningplicht voor sekswerkers én exploitanten invoeren, met een minimumleeftijd van 21 jaar en strafbaarstelling van klanten van onvergunde sekswerkers. In een Kamerbrief van 3 april 2026 maakte de minister van Justitie en Veiligheid bekend dat het kabinet de wet niet doorzet: de doelen worden onderschreven, maar het voorstel bevatte te veel omstreden keuzes. Wat ons betreft is dat verstandig — een landelijke registratieplicht zou juist de kwetsbaarste sekswerkers richting de onvergunde markt duwen, precies wat de wet wilde voorkomen.
 
 In plaats daarvan komt er gerichter beleid. Op 13 mei 2026 kondigde het kabinet aan de wettelijke minimumleeftijd voor sekswerk te verhogen van 18 naar 21 jaar en te onderzoeken hoe een pooierverbod juridisch vorm kan krijgen. De Wet gemeentelijk toezicht seksbedrijven (Wgts) wordt op korte termijn ingediend en geeft gemeenten een steviger grondslag voor toezicht en gegevensverwerking. Sinds 1 april 2026 geldt bovendien een identiteitscheck voor nieuwe advertenties op sekswerkplatforms, en het budget voor uitstapprogramma's is verhoogd naar € 6,5 miljoen per jaar. Let op: de leeftijdsverhoging is medio 2026 een kabinetsvoornemen, nog geen geldend recht — de landelijke ondergrens is dus nog steeds 18 jaar.
 
@@ -126,5 +133,7 @@ Door drie dingen te controleren: leeftijd, vrijwilligheid en het kanaal waarlang
 - **Leeftijd.** Boek nooit bij twijfel over leeftijd. "Ik wist het niet" is geen verweer: de artikelen 245 en 246 Sr stellen de klant strafbaar, ongeacht of die de leeftijd kende. Vergunde bureaus en serieuze platforms controleren identiteitsbewijzen; sinds 1 april 2026 is een ID-check bij nieuwe advertenties zelfs verplicht.
 - **Vrijwilligheid.** Signalen van dwang — iemand anders voert het gesprek, de escort mag geen nee zeggen, er is geen eigen telefoon — zijn reden om direct af te zien van de afspraak en kunnen anoniem gemeld worden bij Meld Misdaad Anoniem (0800-7000).
 - **Kanaal.** Boek via een vergund escortbureau of een platform dat adverteerders verifieert; ons overzicht van [de beste escortsites van Nederland](/nl/platforms/beste-escortsites-nederland/) laat zien welke platforms leeftijd en identiteit daadwerkelijk controleren. Nepadvertenties zijn bovendien het grootste praktische risico voor klanten — leer ze herkennen met onze gids [nepprofielen herkennen](/nl/gidsen/nepprofielen-herkennen/). En wie wil weten wat een legale boeking hoort te kosten: zie [escortprijzen in Nederland](/nl/gidsen/escort-prijzen/).
+
+Eerlijke kanttekening bij het advies "boek via een vergund bureau": er bestaat geen openbaar landelijk register van vergunde escortbureaus, dus als klant kun je een vergunning zelden zelfstandig controleren. Je leunt op wat het bureau of platform zelf laat zien — een zwakte van het huidige stelsel.
 
 De kern blijft simpel: escort is legaal in Nederland, en dat is sinds 1 oktober 2000 bewust beleid. De wet richt zich niet op de klant die netjes bij een volwassen, vrijwillig werkende escort boekt, maar op wie minderjarigen betaalt, mensen uitbuit of zonder vergunning exploiteert. Wie de drie controles hierboven doet, zit goed — in Amsterdam, Rotterdam, Den Haag, Utrecht en elke andere Nederlandse gemeente.

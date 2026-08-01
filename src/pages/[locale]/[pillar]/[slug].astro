@@ -70,11 +70,8 @@ if (review) jsonLd.push(reviewJsonLd(article, url));
 >
   <article>
     <nav aria-label="Breadcrumb" class="flex flex-wrap gap-2">
-      <a href={`/${locale}/`} class="chip chip-soft !py-1.5 !text-[0.72rem]">{t('home', locale)}</a>
-      <a
-        href={`/${locale}/${pillar.slug[locale]}/`}
-        class="chip chip-soft !py-1.5 !text-[0.72rem]"
-      >
+      <a href={`/${locale}/`} class="chip chip-sm chip-soft">{t('home', locale)}</a>
+      <a href={`/${locale}/${pillar.slug[locale]}/`} class="chip chip-sm chip-soft">
         {pillar.name[locale]}
       </a>
     </nav>
@@ -104,6 +101,17 @@ if (review) jsonLd.push(reviewJsonLd(article, url));
         <span aria-hidden="true">·</span>
         <span>{readingMinutes(article)} {t('minRead', locale)}</span>
       </p>
+      {article.data.changelog.length > 0 && (
+        <ul class="mt-3 space-y-1 font-sans text-xs text-ink-muted">
+          {article.data.changelog.map((c) => (
+            <li>
+              <span class="eyebrow mr-2 !text-[0.6rem]">{t('changelogLabel', locale)}</span>
+              <time datetime={c.date.toISOString().slice(0, 10)}>{fmtDate(c.date, locale)}</time>
+              {' — '}{c.note}
+            </li>
+          ))}
+        </ul>
+      )}
     </header>
 
     {img && (
@@ -121,7 +129,7 @@ if (review) jsonLd.push(reviewJsonLd(article, url));
     )}
 
     {review && (
-      <section class="wash-platforms mt-8 rounded-[1.75rem] p-6 sm:p-8">
+      <section class:list={[`wash-${article.data.pillar}`, 'mt-8 rounded-[1.75rem] p-6 sm:p-8']}>
         <div class="flex items-baseline justify-between gap-4">
           <h2 class="eyebrow">{t('scores', locale)} — {review.platform}</h2>
           <p class="font-sans">
@@ -148,7 +156,7 @@ if (review) jsonLd.push(reviewJsonLd(article, url));
     {ranking && ranking.length > 0 && (
       <ol class="mt-8 space-y-4">
         {ranking.map((r) => (
-          <li class="card wash-platforms flex items-start gap-5 !p-6">
+          <li class:list={[`wash-${article.data.pillar}`, 'flex items-start gap-5 rounded-[1.6rem] p-6']}>
             <span class="display text-[2.6rem] leading-none opacity-90">{r.position}</span>
             <div>
               <h2 class="display text-xl">

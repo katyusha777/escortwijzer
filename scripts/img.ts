@@ -20,6 +20,19 @@ const PICKS: Record<string, string> = {
   methodology: 'ernest-tarasov',
   kinky: 'jeferson-gomes-9crthglc2ZE',
   intimate: 'caique-nascimento',
+  forms: 'anil-sharma',
+  'client-rules': 'cucu-marius-daniel',
+  municipalities: 'vadim-yefremov',
+  'worker-safety': 'mihaela-claudia-puscas',
+  verification: 'viktor-hesse',
+  versus: 'logan-weaver',
+  sexjobs: 'mukul-kumar',
+  rotterdam: 'marlon-alves',
+  'den-haag': 'ayo-ogunseinde',
+  utrecht: 'gold-touch-nutrition',
+  tourist: 'garin-chadwick',
+  glossary: 'ph-m-duy-quang',
+  faq: 'vasi',
 };
 
 mkdirSync(OUT, { recursive: true });

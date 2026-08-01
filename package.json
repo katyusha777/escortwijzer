@@ -7,6 +7,7 @@
     "build": "astro build",
     "check": "astro check",
     "verify": "bun scripts/verify.ts",
+    "lint:content": "bun scripts/lint-content.ts",
     "preview": "astro build && wrangler dev",
     "deploy:staging": "astro build && bun scripts/verify.ts && wrangler deploy --env staging",
     "deploy": "astro build && bun scripts/verify.ts && wrangler deploy"

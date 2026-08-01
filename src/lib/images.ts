@@ -76,4 +76,95 @@ export const ARTICLE_IMG: Record<string, Img> = {
       en: 'Understated editorial portrait',
     },
   },
+  'forms-difference': {
+    src: '/img/forms.webp',
+    alt: {
+      nl: 'Portret in gedempt binnenlicht',
+      en: 'Portrait in muted indoor light',
+    },
+  },
+  'client-rules': {
+    src: '/img/client-rules.webp',
+    alt: {
+      nl: 'Model in formele studio-omgeving',
+      en: 'Model in a formal studio setting',
+    },
+  },
+  'municipal-rules': {
+    src: '/img/municipalities.webp',
+    alt: {
+      nl: 'Silhouet tegen stedelijke achtergrond',
+      en: 'Silhouette against an urban backdrop',
+    },
+  },
+  'worker-safety': {
+    src: '/img/worker-safety.webp',
+    alt: {
+      nl: 'Rustig portret in zacht licht',
+      en: 'Calm portrait in soft light',
+    },
+  },
+  'verification-explained': {
+    src: '/img/verification.webp',
+    alt: {
+      nl: 'Portret met scherpe, heldere belichting',
+      en: 'Portrait with sharp, clear lighting',
+    },
+  },
+  'kinky-vs-intimate': {
+    src: '/img/versus.webp',
+    alt: {
+      nl: 'Contrastrijk studioportret',
+      en: 'High-contrast studio portrait',
+    },
+  },
+  'sexjobs-review': {
+    src: '/img/sexjobs.webp',
+    alt: {
+      nl: 'Portret met warme avondtinten',
+      en: 'Portrait in warm evening tones',
+    },
+  },
+  'escort-rotterdam': {
+    src: '/img/rotterdam.webp',
+    alt: {
+      nl: 'Model in moderne stedelijke setting',
+      en: 'Model in a modern urban setting',
+    },
+  },
+  'escort-den-haag': {
+    src: '/img/den-haag.webp',
+    alt: {
+      nl: 'Elegant portret in natuurlijk licht',
+      en: 'Elegant portrait in natural light',
+    },
+  },
+  'escort-utrecht': {
+    src: '/img/utrecht.webp',
+    alt: {
+      nl: 'Portret in intieme binnenruimte',
+      en: 'Portrait in an intimate interior',
+    },
+  },
+  'amsterdam-tourist': {
+    src: '/img/tourist.webp',
+    alt: {
+      nl: 'Avondportret in stadslicht',
+      en: 'Evening portrait in city light',
+    },
+  },
+  glossary: {
+    src: '/img/glossary.webp',
+    alt: {
+      nl: 'Minimalistisch portret in daglicht',
+      en: 'Minimalist portrait in daylight',
+    },
+  },
+  'faq-hub': {
+    src: '/img/faq.webp',
+    alt: {
+      nl: 'Portret met rustige, neutrale achtergrond',
+      en: 'Portrait with a calm, neutral background',
+    },
+  },
 };

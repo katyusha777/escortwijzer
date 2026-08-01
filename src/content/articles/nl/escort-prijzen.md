@@ -6,6 +6,13 @@ translationKey: escort-prices
 pillar: guides
 publishedAt: 2026-08-01
 updatedAt: 2026-08-01
+targetQueries:
+  - "wat kost een escort"
+  - "escort prijzen nederland"
+  - "hoeveel kost een escort per uur"
+  - "escort tarieven amsterdam"
+  - "wat is een normaal tarief voor een escort"
+  - "moet je een escort vooraf betalen"
 sources:
   - title: "Prostitutie — Rijksoverheid"
     url: "https://www.rijksoverheid.nl/onderwerpen/prostitutie"
@@ -27,7 +34,7 @@ faq:
 related:
   - spot-fakes
   - is-escort-legal
-  - best-escort-sites
+  - forms-difference
   - escort-amsterdam
 ---
 
