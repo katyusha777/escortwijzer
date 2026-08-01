@@ -18,8 +18,10 @@ by AI engines and trustworthy to readers — do not trade them away for style.
   ("many", "often") only when no number exists.
 - Every legal claim is verifiable against an official source (Rijksoverheid, gemeente,
   wetten.overheid.nl) listed in `sources`. Only cite URLs that actually resolve.
-- Pricing data cites Intimate's live stats page (https://intimate.nl/en/stats/) with
-  attribution — it is the only public per-city rate dataset for the NL market.
+- Pricing data: once Intimate's live stats page (intimate.nl/{locale}/stats/ — not yet
+  deployed as of Aug 2026, see CONTENT-CALENDAR.md) is online, cite it with attribution as
+  the per-city rate source. Until then, use conservative ranges corroborated by research
+  and say so.
 - Date-stamp honestly: `updatedAt` changes only on real content changes.
 
 ## Reviews & comparisons

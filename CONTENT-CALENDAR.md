@@ -18,6 +18,14 @@ nl + en (de once the locale launches). Target queries in parentheses.
 11. **Municipal licensing explainer per city** (law) ("escortvergunning gemeente")
 12. **Q4 refresh: ranking + pricing** — quarterly update with fresh stats ("beste escortsites 2027" prep)
 
+## Blocked on Intimate deploys
+
+- **Stats-page citation swap-in**: intimate.nl/{locale}/stats/ 404s as of 2026-08-01 (page
+  exists in the intimate repo but is not deployed). Once live: cite its per-city numbers in
+  `escort-prijzen` / `escort-prices-netherlands` (the caveat paragraph already anticipates
+  this) and in the Amsterdam guides' pricing sections. This is the data-citation loop — do
+  it the week the page ships.
+
 ## Refresh schedule
 
 - Quarterly: `beste-escortsites-nederland` / `best-escort-sites-netherlands` (re-test scores,

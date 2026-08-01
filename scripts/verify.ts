@@ -51,7 +51,14 @@ for (const file of htmlFiles) {
     errors.push(`${page}: home missing Organization/WebSite JSON-LD`);
   }
 
-  // 3. Collect hreflang alternates.
+  // 3. Internal links must resolve to built pages.
+  for (const m of html.matchAll(/<a[^>]+href="(\/[^"#?]*)"/g)) {
+    const target = m[1];
+    if (/\.(txt|xml|png|svg|webmanifest)$/.test(target)) continue;
+    if (!builtPaths.has(target)) errors.push(`${page}: internal link → ${target} not built`);
+  }
+
+  // 4. Collect hreflang alternates.
   const alts = [...html.matchAll(/<link rel="alternate" hreflang="([^"]+)" href="([^"]+)"/g)].map(
     (m) => ({ hreflang: m[1], href: m[2] })
   );
