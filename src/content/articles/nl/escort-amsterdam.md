@@ -111,7 +111,7 @@ Boek via een geverifieerd profiel op een gerenommeerd platform of via een bureau
 
 De vier regels:
 
-1. **Controleer het profiel.** Geverifieerde foto's, consistente advertentiegeschiedenis, een telefoonnummer dat niet aan tien profielen hangt. Onze gids [nepprofielen herkennen](/nl/gidsen/nepprofielen-herkennen/) loopt alle controles langs.
+1. **Controleer het profiel.** Geverifieerde foto's, consistente advertentiegeschiedenis, een telefoonnummer dat niet aan tien profielen hangt. Onze gids [nepprofielen herkennen](/nl/gidsen/nepprofielen-herkennen/) loopt alle controles langs. Dat dit geen theorie is, bewees de afpersingszaak van september 2025 met honderden slachtoffers via nepprofielen op Kinky.nl — onze [review van Kinky.nl](/nl/platforms/kinky-review/) weegt dat risico af tegen wat het platform wél goed doet.
 2. **Betaal nooit vooraf op afstand.** Geen betaallinks, cadeaukaarten of crypto "ter bevestiging". Contant bij aanvang is de norm; alles daarbuiten is bij een onbekende aanbieder een rode vlag.
 3. **Vraag bij bureaus naar de vergunning.** Een legaal Amsterdams escortbureau heeft een exploitatievergunning van de gemeente en draait er niet omheen als je ernaar vraagt. De zwakte van deze route: de gemeente publiceert geen doorzoekbaar register van vergunde escortbureaus, dus je bent deels aangewezen op wat het bureau zelf zegt.
 4. **Vermijd straataanbod volledig.** Straatwerving is verboden (APV artikel 2.12) én het klassieke voorportaal van beroving of oplichting.

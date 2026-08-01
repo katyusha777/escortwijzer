@@ -71,7 +71,7 @@ The market has three segments — windows, clubs, and escorts — and despite th
 
 **Clubs and privéhuizen.** Licensed venues ("private houses") where you meet on site. There are relatively few inside the city proper; part of the club scene sits in surrounding municipalities.
 
-**Escorts (incall and outcall).** An appointment at the escort's place (*incall*) or at your hotel (*outcall*), booked through a licensed agency or directly with an independent via an advertising platform. This is the fastest-growing and most discreet segment — and the one where verifying who you're talking to matters most, since all you see beforehand is a profile. We compare the platforms worth using in our ranking of the [best escort sites in the Netherlands](/en/platforms/best-escort-sites-netherlands/).
+**Escorts (incall and outcall).** An appointment at the escort's place (*incall*) or at your hotel (*outcall*), booked through a licensed agency or directly with an independent via an advertising platform. This is the fastest-growing and most discreet segment — and the one where verifying who you're talking to matters most, since all you see beforehand is a profile. We compare the platforms worth using in our ranking of the [best escort sites in the Netherlands](/en/platforms/best-escort-sites-netherlands/). English speakers can also browse [Tryst](/en/platforms/tryst-review/), an international directory that photo-verifies every ad and whose Dutch listings are almost entirely Amsterdam-based.
 
 ## Can an escort visit my hotel?
 

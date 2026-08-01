@@ -167,4 +167,53 @@ export const ARTICLE_IMG: Record<string, Img> = {
       en: 'Portrait with a calm, neutral background',
     },
   },
+  'redlights-review': {
+    src: '/img/redlights.webp',
+    alt: {
+      nl: 'Portret in warm binnenlicht',
+      en: 'Portrait in warm indoor light',
+    },
+  },
+  'boys4u-review': {
+    src: '/img/boys4u.webp',
+    alt: {
+      nl: 'Sfeervolle close-up in avondlicht',
+      en: 'Atmospheric close-up in evening light',
+    },
+  },
+  'eurogirlsescort-review': {
+    src: '/img/eurogirlsescort.webp',
+    alt: {
+      nl: 'Editorial portret met stedelijke achtergrond',
+      en: 'Editorial portrait with urban backdrop',
+    },
+  },
+  'escortnews-review': {
+    src: '/img/escortnews.webp',
+    alt: {
+      nl: 'Portret met gedempte studioverlichting',
+      en: 'Portrait in muted studio lighting',
+    },
+  },
+  'tryst-review': {
+    src: '/img/tryst.webp',
+    alt: {
+      nl: 'Portret in natuurlijk daglicht',
+      en: 'Portrait in natural daylight',
+    },
+  },
+  'escorthub-review': {
+    src: '/img/escorthub.webp',
+    alt: {
+      nl: 'Portret met dramatisch licht en schaduw',
+      en: 'Portrait with dramatic light and shadow',
+    },
+  },
+  'all-escort-sites': {
+    src: '/img/all-sites.webp',
+    alt: {
+      nl: 'Avondportret in de stad',
+      en: 'Evening portrait in the city',
+    },
+  },
 };

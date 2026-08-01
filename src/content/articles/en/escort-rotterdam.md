@@ -79,7 +79,7 @@ Three formats, all arranged in advance from your phone — walking in somewhere 
 
 **Clubs and privéhuizen.** Licensed venues ("private houses") where you meet on site. Rotterdam has a few; the city publishes no count of them.
 
-Because there are no windows, the online ad market *is* the whole market — and that cuts both ways. Every fake profile in the Netherlands can claim to be in Rotterdam, and there is no physical place to see who actually works there. Verification is your only filter; we compare which platforms genuinely check their advertisers in our ranking of the [best escort sites in the Netherlands](/en/platforms/best-escort-sites-netherlands/).
+Because there are no windows, the online ad market *is* the whole market — and that cuts both ways. Every fake profile in the Netherlands can claim to be in Rotterdam, and there is no physical place to see who actually works there. Verification is your only filter; we compare which platforms genuinely check their advertisers in our ranking of the [best escort sites in the Netherlands](/en/platforms/best-escort-sites-netherlands/). Of the open marketplaces, Kinky.nl remains the established default — thousands of daily advertisers across five hundred Dutch towns, Rotterdam included — though verification there is optional, as [our Kinky.nl review](/en/platforms/kinky-review/) details.
 
 ## How much does an escort cost in Rotterdam?
 

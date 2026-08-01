@@ -33,6 +33,13 @@ const PICKS: Record<string, string> = {
   tourist: 'garin-chadwick',
   glossary: 'ph-m-duy-quang',
   faq: 'vasi',
+  redlights: 'agung-setiawan',
+  boys4u: 'babi-Lf9JpqXS--0',
+  eurogirlsescort: 'brian-lawson-MRRgFUt3V0Q',
+  escortnews: 'brian-lawson-P0w6oSpzYv0',
+  tryst: 'felix-uresti',
+  escorthub: 'jeferson-gomes-GYaEMfwk5pM',
+  'all-sites': 'josh-pereira',
 };
 
 mkdirSync(OUT, { recursive: true });

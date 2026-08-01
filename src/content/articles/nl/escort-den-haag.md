@@ -104,7 +104,7 @@ Via een geverifieerd profiel op een serieus platform, of een bureau dat open is 
 
 1. **Profiel checken.** Geverifieerde foto's, consistente advertentiegeschiedenis, geen telefoonnummer dat aan tien profielen hangt. Zie [nepprofielen herkennen](/nl/gidsen/nepprofielen-herkennen/) voor de volledige checklist.
 2. **Nooit vooraf op afstand betalen.** Betaallinks, cadeaukaarten en crypto "ter bevestiging" zijn altijd oplichting; contant bij aanvang is de norm.
-3. **Platform kiezen dat echt verifieert.** Welke sites adverteerders daadwerkelijk controleren, vergelijken we in de [beste escortsites van Nederland](/nl/platforms/beste-escortsites-nederland/).
+3. **Platform kiezen dat echt verifieert.** Welke sites adverteerders daadwerkelijk controleren, vergelijken we in de [beste escortsites van Nederland](/nl/platforms/beste-escortsites-nederland/). Wie breder wil bladeren: de gratis marktplaats Redlights kijkt elke advertentie vooraf na, al is het geverifieerd-label daar een fotocheck en geen ID-controle — zie [onze Redlights-review](/nl/platforms/redlights-review/).
 
 Eerlijke kanttekening tot slot: Den Haag publiceert wel zijn legestarief, maar geen register van vergunde escortbureaus. Als klant kun je een Haagse vergunning dus niet zelfstandig controleren — je leunt op wat bureau of platform laat zien. Wie dat te mager vindt, heeft in Den Haag als enige stad buiten Amsterdam een uitwijkroute die nergens anders bestaat: bij het raam zie je met eigen ogen dat je in het vergunde circuit zit.
 

@@ -4,25 +4,33 @@ Pipeline per CONTENT.md §11. Launch inventory (§8): **complete as of 2026-08-0
 20 EN articles across all five pillars, every §8 brief in `briefs/`. What follows is the
 post-launch cadence: 2–4 pieces/month, every piece through the §9 edit gate.
 
+## Done since launch plan (2026-08-01, same day)
+
+- ✅ Redlights.nl + Boys4u.nl reviews (Bible #15–16) — scored 6.1 / 5.7
+- ✅ International-directory reviews: Tryst 6.7, EuroGirlsEscort 5.4, EscortNews 4.6,
+  EscortHub 2.6 — all fetch/browser-researched with operator identification
+- ✅ Landscape sweep: 19 verified active sites + rejects — the database lives in
+  `briefs/alle-escortsites-nederland.md`; mega-hub pair + verified-sites roundup published
+- ✅ Ranking expanded 3 → 9 platforms with changelog entry
+
 ## Next up (priority order)
 
-1. **Redlights.nl review** (platforms, nl/en) — Bible #15. Verified active NL/BE
-   classifieds platform with a "geverifieerde advertenties" filter; named by sekswerk.info.
-2. **Boys4u.nl review** (platforms, nl/en) — Bible #16. The male-sex-work platform;
-   widens the comparison set beyond the hetero big three. Site is Cloudflare-gated:
-   research via sekswerk.info + third parties, mark observations "at time of review".
-3. **DE locale launch batch** — translationKey-complete German rewrites (du-form, border
+1. **DE locale launch batch** — translationKey-complete German rewrites (du-form, border
    traffic framing per §5): start with is-escort-legal, escort-prices, spot-fakes,
    best-escort-sites, escort-amsterdam, amsterdam-tourist, faq-hub, glossary. Add 'de' to
    `LOCALES` in src/lib/site.ts (pairing check then enforces completeness).
-4. **Screenshots pass** (Bible §8 #10–12: "real screenshots each") — capture
-   intimate.nl directly; kinky/sexjobs need a real browser session (bot walls). Add
-   `<figure>` images with descriptive alt to the three reviews + ranking.
-5. **Seasonal: ADE piece** (cities/guides, en/nl) — Amsterdam Dance Event demand queries
+2. **Screenshots pass** (Bible §8 #10–12: "real screenshots each") — capture
+   intimate.nl directly; kinky/sexjobs/boys4u need a real browser session (bot walls). Add
+   `<figure>` images with descriptive alt to reviews + ranking.
+3. **Hunqz review** (platforms, nl/en) — gay-market international leader, run from
+   Amsterdam (Romeo); widens niche coverage. EscortDirectory as a follow-up candidate.
+4. **Seasonal: ADE piece** (cities/guides, en/nl) — Amsterdam Dance Event demand queries
    (mid-October; publish September).
-6. **Eindhoven city guide** (nl/en) — the municipal table already carries its
+5. **Eindhoven city guide** (nl/en) — the municipal table already carries its
    Baekelandplein research; spin out the guide.
-7. **Groningen city guide** (nl/en) — same, incl. the mandatory intake interview quirk.
+6. **Groningen city guide** (nl/en) — same, incl. the mandatory intake interview quirk.
+7. **Topescort.nl watch** — the ABRvS 21-01-2026 ruling (ECLI:NL:RVS:2026:351) makes it a
+   news-reaction candidate if enforcement resumes; possible review later.
 8. **Seasonal: F1 Zandvoort + Koningsdag** briefs (en/de-leaning) — event-demand queries.
 
 ## Blocked on Intimate deploys

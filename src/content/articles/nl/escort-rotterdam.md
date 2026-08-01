@@ -80,7 +80,7 @@ Drie vormen, allemaal op afspraak: escort, privéontvangst en clubs/privéhuizen
 
 **Clubs en privéhuizen.** Vergunde locaties waar je ter plekke kennismaakt. Rotterdam heeft er een handvol; hoeveel precies publiceert de gemeente niet.
 
-Omdat er geen ramen zijn, is het online aanbod de héle markt — en daar zit de zwakte van het Rotterdamse model. Elke nepadvertentie van Nederland kan zich "Rotterdam" noemen, en zonder fysieke plek om iets te verifiëren leun je volledig op platformverificatie. Welke sites adverteerders daadwerkelijk controleren, lees je in ons overzicht van de [beste escortsites van Nederland](/nl/platforms/beste-escortsites-nederland/).
+Omdat er geen ramen zijn, is het online aanbod de héle markt — en daar zit de zwakte van het Rotterdamse model. Elke nepadvertentie van Nederland kan zich "Rotterdam" noemen, en zonder fysieke plek om iets te verifiëren leun je volledig op platformverificatie. Welke sites adverteerders daadwerkelijk controleren, lees je in ons overzicht van de [beste escortsites van Nederland](/nl/platforms/beste-escortsites-nederland/). Het grootste aanbod buiten Amsterdam vind je in de praktijk op Sexjobs.nl — al controleert dat platform een ID alleen bij twijfel over leeftijd, zoals we vaststelden in onze [Sexjobs-review](/nl/platforms/sexjobs-review/).
 
 ## Wat kost een escort in Rotterdam?
 

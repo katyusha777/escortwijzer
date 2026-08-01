@@ -57,7 +57,7 @@ Voor de sekswerker is screening de belangrijkste veiligheidsmaatregel die er bes
 
 De keerzijde van screening verdient wel een eerlijke vermelding: jij geeft je naam, nummer en soms je hotelgegevens aan iemand die je nog nooit hebt ontmoet. Dat is de prijs van het systeem — deel wat gevraagd wordt, maar niet meer dan dat.
 
-Voor jou geldt het spiegelbeeld. Controleer of foto's consistent zijn, of het profiel geverifieerd is op het platform, en of het telefoonnummer niet aan tien verschillende advertenties hangt. Betaal nooit vooraf via een betaallink, cadeaukaart of crypto "om de afspraak te bevestigen" — dat is in vrijwel alle gevallen oplichting. Legitieme escorts vragen geen aanbetaling via anonieme kanalen; hooguit een kleine, verifieerbare aanbetaling bij lange boekingen via een traceerbaar kanaal.
+Voor jou geldt het spiegelbeeld. Controleer of foto's consistent zijn, of het profiel geverifieerd is op het platform, en of het telefoonnummer niet aan tien verschillende advertenties hangt. Wat zo'n platformvinkje waard is, verschilt flink per site: op [Intimate.nl](https://intimate.nl) ging er een verplichte identiteitscontrole aan vooraf, terwijl verificatie op [Kinky.nl](https://www.kinky.nl) vrijwillig is. Betaal nooit vooraf via een betaallink, cadeaukaart of crypto "om de afspraak te bevestigen" — dat is in vrijwel alle gevallen oplichting. Legitieme escorts vragen geen aanbetaling via anonieme kanalen; hooguit een kleine, verifieerbare aanbetaling bij lange boekingen via een traceerbaar kanaal.
 
 Sekswerk tussen instemmende volwassenen is legaal in Nederland; screening en verificatie zijn precies de mechanismen die de legale markt onderscheiden van de louche randen ervan.
 
