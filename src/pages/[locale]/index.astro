@@ -1,25 +1,29 @@
 ---
+import ArticleCard from '../../components/ArticleCard.astro';
 import Base from '../../layouts/Base.astro';
-import { allArticles, pathOf, type Article } from '../../lib/articles';
+import { allArticles } from '../../lib/articles';
+import { HERO_IMG } from '../../lib/images';
 import { organizationJsonLd, websiteJsonLd } from '../../lib/seo';
-import { LOCALES, PILLARS, SITE_NAME, fmtDate, t, type Locale, type Pillar } from '../../lib/site';
+import { LOCALES, PILLARS, fmtDate, t, type Locale, type Pillar } from '../../lib/site';
 
 export async function getStaticPaths() {
   return LOCALES.map((locale) => ({ params: { locale } }));
 }
 
 const locale = Astro.params.locale as Locale;
-const entries = (await allArticles()).filter((e) => e.data.locale === locale);
-const byPillar = (p: Pillar): Article[] =>
-  entries
-    .filter((e) => e.data.pillar === p)
-    .sort((a, b) => b.data.updatedAt.getTime() - a.data.updatedAt.getTime());
+const entries = (await allArticles())
+  .filter((e) => e.data.locale === locale)
+  .sort((a, b) => b.data.updatedAt.getTime() - a.data.updatedAt.getTime());
+const [featured, ...rest] = entries;
+const countOf = (p: Pillar) => entries.filter((e) => e.data.pillar === p).length;
+const newest = entries[0]?.data.updatedAt;
+const lawEntry = entries.find((e) => e.data.translationKey === 'is-escort-legal');
 
 const alternates = Object.fromEntries(LOCALES.map((l) => [l, `/${l}/`]));
 const title =
   locale === 'nl'
-    ? 'Best Escorts — de gids voor legale erotische dienstverlening in Nederland'
-    : 'Best Escorts — the guide to legal adult services in the Netherlands';
+    ? 'Best Escorts — de eerlijke gids voor legale erotische dienstverlening'
+    : 'Best Escorts — the honest guide to legal adult services in the Netherlands';
 ---
 
 <Base
@@ -29,39 +33,73 @@ const title =
   path={`/${locale}/`}
   alternates={alternates}
   jsonLd={[organizationJsonLd(), websiteJsonLd(locale)]}
+  wide
 >
-  <div class="border-b border-rule pb-8">
-    <h1 class="display text-3xl sm:text-4xl">{SITE_NAME}<span class="text-accent">.nl</span></h1>
-    <p class="mt-3 max-w-xl text-lg leading-snug text-ink-muted">{t('tagline', locale)}</p>
-  </div>
+  <!-- Split hero -->
+  <section class="grid items-center gap-10 lg:grid-cols-[1.15fr_0.85fr] lg:gap-16">
+    <div>
+      <span class="chip chip-soft !text-[0.75rem]">
+        <span class="inline-block size-2 rounded-full bg-accent"></span>
+        {t('heroBadge', locale)}
+      </span>
+      <h1 class="display-hero mt-6 text-[clamp(3.1rem,9vw,5.8rem)]">
+        {t('heroTitle', locale)}
+      </h1>
+      <p class="mt-6 max-w-md text-xl leading-snug text-ink-muted">{t('tagline', locale)}</p>
+      <div class="mt-8 flex flex-wrap gap-2">
+        {(Object.keys(PILLARS) as Pillar[]).map((p) => (
+          <a href={`/${locale}/${PILLARS[p].slug[locale]}/`} class="chip">
+            {PILLARS[p].name[locale]}
+            <span class="count">{countOf(p)}</span>
+          </a>
+        ))}
+      </div>
+      {newest && (
+        <p class="mt-8 font-sans text-xs text-ink-muted">
+          {entries.length} {t('articles', locale)} · {t('languages', locale)} ·{' '}
+          {t('updated', locale)} {fmtDate(newest, locale)}
+        </p>
+      )}
+    </div>
 
-  {(Object.keys(PILLARS) as Pillar[]).map((p) => {
-    const list = byPillar(p);
-    return list.length > 0 ? (
-      <section class="mt-10">
-        <div class="flex items-baseline justify-between">
-          <h2 class="eyebrow">
-            <a href={`/${locale}/${PILLARS[p].slug[locale]}/`}>{PILLARS[p].name[locale]}</a>
-          </h2>
-        </div>
-        <ul class="mt-4 space-y-6">
-          {list.map((a) => (
-            <li>
-              <a href={pathOf(a)} class="group block">
-                <h3 class="display text-xl leading-snug group-hover:text-accent-ink">
-                  {a.data.title}
-                </h3>
-                <p class="mt-1.5 text-[0.95rem] leading-relaxed text-ink-muted">
-                  {a.data.description}
-                </p>
-                <p class="mt-1.5 font-sans text-xs text-ink-muted">
-                  {t('updated', locale)} {fmtDate(a.data.updatedAt, locale)}
-                </p>
-              </a>
-            </li>
-          ))}
-        </ul>
-      </section>
-    ) : null;
-  })}
+    <div class="relative">
+      <div class="aspect-[3/4] max-h-[34rem] w-full overflow-hidden rounded-[2rem]">
+        <img
+          src={HERO_IMG.src}
+          alt={HERO_IMG.alt[locale]}
+          width="720"
+          height="1080"
+          fetchpriority="high"
+          decoding="async"
+          class="photo"
+        />
+      </div>
+      <div class="absolute inset-x-4 bottom-4 rounded-2xl bg-paper/85 p-4 backdrop-blur-md sm:inset-x-6 sm:bottom-6 sm:p-5">
+        <p class="flex items-start gap-2.5 font-sans text-[0.85rem] font-medium leading-snug">
+          <span class="mt-0.5 grid size-5 shrink-0 place-items-center rounded-full bg-accent font-sans text-[0.65rem] text-white">✓</span>
+          {t('heroFact1', locale)}
+        </p>
+        <p class="mt-2.5 flex items-start gap-2.5 font-sans text-[0.85rem] font-medium leading-snug">
+          <span class="mt-0.5 grid size-5 shrink-0 place-items-center rounded-full bg-accent font-sans text-[0.65rem] text-white">✓</span>
+          {t('heroFact2', locale)}
+        </p>
+        {lawEntry && (
+          <a
+            href={`/${locale}/${PILLARS.law.slug[locale]}/${lawEntry.id.split('/')[1]}/`}
+            class="chip mt-4 !bg-ink !border-ink !text-paper hover:!bg-accent hover:!border-accent"
+          >
+            {t('heroFactCta', locale)} →
+          </a>
+        )}
+      </div>
+    </div>
+  </section>
+
+  <!-- Bento grid -->
+  <section class="mt-14 grid gap-5 sm:mt-20 sm:grid-cols-2">
+    {featured && <ArticleCard article={featured} featured />}
+    {rest.map((a) => (
+      <ArticleCard article={a} />
+    ))}
+  </section>
 </Base>

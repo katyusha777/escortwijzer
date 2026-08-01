@@ -11,9 +11,17 @@ Bun · Astro static (`output: 'static'`, **zero JS by design** — CI asserts it
 (tokens in `src/styles/global.css`) · content collections (markdown only, no database) ·
 Cloudflare Worker serving static assets (no `main` in wrangler.jsonc).
 
-Design register: editorial/magazine — Fraunces display serif (self-hosted variable),
-system serif body, warm paper + bottle-green accent, light/dark purely via
-`prefers-color-scheme`. Deliberately nothing like Intimate's visual language.
+Design register: bold editorial — mega Fraunces display serif (self-hosted variable),
+system serif body, ink header/footer bands, per-pillar color-washed bento cards, pill
+chips, split hero with photo + fact card. Light/dark purely via `prefers-color-scheme`.
+Motion without JS: CSS cross-document view transitions (title morphs between card and
+article) + scroll-driven reveal animations — both progressive, reduced-motion-safe, and
+transform-only (never opacity: content must render without scroll). Deliberately nothing
+like Intimate's visual language.
+
+Photography: `./stock-originals/` (curated Unsplash, not deployed) → `bun scripts/img.ts`
+→ `public/img/*.webp` (720×1080). Article images map by translationKey in
+`src/lib/images.ts` (add new articles there, or they render imageless — that's fine).
 
 ## Commands
 

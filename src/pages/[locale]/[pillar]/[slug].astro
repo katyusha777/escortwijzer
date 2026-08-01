@@ -1,7 +1,15 @@
 ---
 import { render } from 'astro:content';
 import Base from '../../../layouts/Base.astro';
-import { allArticles, pathOf, relatedOf, siblingsOf, slugOf } from '../../../lib/articles';
+import {
+  allArticles,
+  pathOf,
+  readingMinutes,
+  relatedOf,
+  siblingsOf,
+  slugOf,
+} from '../../../lib/articles';
+import { ARTICLE_IMG } from '../../../lib/images';
 import {
   articleJsonLd,
   breadcrumbJsonLd,
@@ -35,6 +43,8 @@ const url = SITE_URL + path;
 const alternates = siblingsOf(article, entries);
 const related = relatedOf(article, entries);
 const { faq, review, ranking, sources } = article.data;
+const img = ARTICLE_IMG[article.data.translationKey];
+const vt = `vt-${article.data.locale}-${slugOf(article)}`;
 
 const jsonLd: object[] = [
   articleJsonLd(article, url),
@@ -59,52 +69,77 @@ if (review) jsonLd.push(reviewJsonLd(article, url));
   ogType="article"
 >
   <article>
-    <nav aria-label="Breadcrumb" class="font-sans text-xs text-ink-muted">
-      <a href={`/${locale}/`} class="hover:text-ink">{t('home', locale)}</a>
-      <span aria-hidden="true"> / </span>
-      <a href={`/${locale}/${pillar.slug[locale]}/`} class="hover:text-ink">{pillar.name[locale]}</a>
+    <nav aria-label="Breadcrumb" class="flex flex-wrap gap-2">
+      <a href={`/${locale}/`} class="chip chip-soft !py-1.5 !text-[0.72rem]">{t('home', locale)}</a>
+      <a
+        href={`/${locale}/${pillar.slug[locale]}/`}
+        class="chip chip-soft !py-1.5 !text-[0.72rem]"
+      >
+        {pillar.name[locale]}
+      </a>
     </nav>
 
-    <header class="mt-4 border-b border-rule pb-6">
-      <p class="eyebrow">{pillar.name[locale]}</p>
-      <h1 class="display mt-2 text-[1.9rem] leading-tight sm:text-4xl">{article.data.title}</h1>
-      <p class="mt-4 max-w-xl text-lg leading-snug text-ink-muted">{article.data.description}</p>
-      <p class="mt-4 font-sans text-xs text-ink-muted">
-        {t('published', locale)}{' '}
-        <time datetime={article.data.publishedAt.toISOString().slice(0, 10)}>
-          {fmtDate(article.data.publishedAt, locale)}
-        </time>
-        {' · '}{t('updated', locale)}{' '}
-        <time datetime={article.data.updatedAt.toISOString().slice(0, 10)}>
-          {fmtDate(article.data.updatedAt, locale)}
-        </time>
+    <header class="mt-6">
+      <h1
+        class="display text-[clamp(1.9rem,5.5vw,3.1rem)] leading-[1.05]"
+        style={`view-transition-name: ${vt}`}
+      >
+        {article.data.title}
+      </h1>
+      <p class="mt-5 max-w-xl text-lg leading-snug text-ink-muted">{article.data.description}</p>
+      <p class="mt-5 flex flex-wrap items-center gap-x-3 gap-y-1 font-sans text-xs text-ink-muted">
+        <span>
+          {t('published', locale)}{' '}
+          <time datetime={article.data.publishedAt.toISOString().slice(0, 10)}>
+            {fmtDate(article.data.publishedAt, locale)}
+          </time>
+        </span>
+        <span aria-hidden="true">·</span>
+        <span>
+          {t('updated', locale)}{' '}
+          <time datetime={article.data.updatedAt.toISOString().slice(0, 10)}>
+            {fmtDate(article.data.updatedAt, locale)}
+          </time>
+        </span>
+        <span aria-hidden="true">·</span>
+        <span>{readingMinutes(article)} {t('minRead', locale)}</span>
       </p>
     </header>
 
+    {img && (
+      <div class="mt-8 aspect-[16/9] overflow-hidden rounded-[1.75rem]">
+        <img
+          src={img.src}
+          alt={img.alt[locale]}
+          width="720"
+          height="1080"
+          fetchpriority="high"
+          decoding="async"
+          class="photo"
+        />
+      </div>
+    )}
+
     {review && (
-      <section class="mt-8 border border-rule bg-paper-raised p-5">
+      <section class="wash-platforms mt-8 rounded-[1.75rem] p-6 sm:p-8">
         <div class="flex items-baseline justify-between gap-4">
           <h2 class="eyebrow">{t('scores', locale)} — {review.platform}</h2>
           <p class="font-sans">
-            <span class="display text-3xl text-accent-ink">{overallScore(review.scores)}</span>
-            <span class="text-xs text-ink-muted">/10</span>
+            <span class="display text-5xl">{overallScore(review.scores)}</span>
+            <span class="text-xs opacity-70">/10</span>
           </p>
         </div>
-        <dl class="mt-4 space-y-2.5">
+        <dl class="mt-6 space-y-3">
           {Object.entries(review.scores).map(([id, score]) => (
-            <div class="grid grid-cols-[9rem_1fr_2rem] items-center gap-3 font-sans text-[0.82rem]">
-              <dt class="text-ink-muted">{CRITERIA[id as CriterionId][locale]}</dt>
-              <dd class="h-1.5 bg-rule">
-                <div class="h-full bg-accent" style={`width:${(score as number) * 10}%`} />
-              </dd>
-              <dd class="text-right tabular-nums">{score}</dd>
+            <div class="grid grid-cols-[9rem_1fr_2rem] items-center gap-3 font-sans text-[0.85rem]">
+              <dt class="opacity-80">{CRITERIA[id as CriterionId][locale]}</dt>
+              <dd class="score-bar"><div style={`width:${(score as number) * 10}%`} /></dd>
+              <dd class="text-right font-semibold tabular-nums">{score}</dd>
             </div>
           ))}
         </dl>
-        <p class="mt-4 text-[0.95rem] leading-relaxed">
-          <strong class="font-sans text-[0.8rem] uppercase tracking-wider text-ink-muted">
-            {t('verdict', locale)}:
-          </strong>{' '}
+        <p class="mt-6 text-[0.98rem] leading-relaxed">
+          <strong class="eyebrow mr-2">{t('verdict', locale)}</strong>
           {review.verdict}
         </p>
       </section>
@@ -113,31 +148,33 @@ if (review) jsonLd.push(reviewJsonLd(article, url));
     {ranking && ranking.length > 0 && (
       <ol class="mt-8 space-y-4">
         {ranking.map((r) => (
-          <li class="flex gap-4 border border-rule bg-paper-raised p-5">
-            <span class="display text-2xl text-accent-ink">{r.position}</span>
+          <li class="card wash-platforms flex items-start gap-5 !p-6">
+            <span class="display text-[2.6rem] leading-none opacity-90">{r.position}</span>
             <div>
-              <h2 class="display text-lg">
-                <a href={r.url} rel="nofollow" class="hover:text-accent-ink">{r.name}</a>
+              <h2 class="display text-xl">
+                <a href={r.url} rel="nofollow" class="hover:underline underline-offset-4">
+                  {r.name} ↗
+                </a>
               </h2>
-              <p class="mt-1 text-[0.95rem] leading-relaxed text-ink-muted">{r.summary}</p>
+              <p class="mt-1.5 text-[0.95rem] leading-relaxed opacity-80">{r.summary}</p>
             </div>
           </li>
         ))}
       </ol>
     )}
 
-    <div class="prose mt-8">
+    <div class="prose mt-10">
       <Content />
     </div>
 
     {faq.length > 0 && (
-      <section class="mt-12 border-t border-rule pt-8">
-        <h2 class="display text-2xl">{t('faq', locale)}</h2>
-        <dl class="mt-6 space-y-6">
+      <section class="mt-14">
+        <h2 class="display text-3xl">{t('faq', locale)}</h2>
+        <dl class="mt-6 grid gap-4">
           {faq.map(({ q, a }) => (
-            <div>
+            <div class="rounded-2xl bg-paper-raised p-5 sm:p-6">
               <dt class="display text-lg">{q}</dt>
-              <dd class="mt-2 leading-relaxed text-ink-muted">{a}</dd>
+              <dd class="mt-2.5 leading-relaxed text-ink-muted">{a}</dd>
             </div>
           ))}
         </dl>
@@ -145,8 +182,8 @@ if (review) jsonLd.push(reviewJsonLd(article, url));
     )}
 
     {sources.length > 0 && (
-      <section class="mt-12 border-t border-rule pt-8">
-        <h2 class="eyebrow">{t('sources', locale)}</h2>
+      <section class="mt-12 rounded-2xl border border-rule p-5 sm:p-6">
+        <h2 class="eyebrow text-accent-ink">{t('sources', locale)}</h2>
         <ol class="mt-4 list-decimal space-y-2 pl-5 font-sans text-[0.85rem]">
           {sources.map((s) => (
             <li>
@@ -159,16 +196,15 @@ if (review) jsonLd.push(reviewJsonLd(article, url));
     )}
 
     {related.length > 0 && (
-      <section class="mt-12 border-t border-rule pt-8">
-        <h2 class="eyebrow">{t('related', locale)}</h2>
-        <ul class="mt-4 space-y-4">
+      <section class="mt-14">
+        <h2 class="eyebrow text-accent-ink">{t('related', locale)}</h2>
+        <ul class="mt-5 grid gap-4 sm:grid-cols-2">
           {related.map((r) => (
             <li>
-              <a href={pathOf(r)} class="group block">
-                <h3 class="display text-lg leading-snug group-hover:text-accent-ink">
-                  {r.data.title}
-                </h3>
-                <p class="mt-1 text-[0.9rem] text-ink-muted">{r.data.description}</p>
+              <a href={pathOf(r)} class:list={['card !p-5 h-full', `wash-${r.data.pillar}`]}>
+                <span class="card-arrow" aria-hidden="true">↗</span>
+                <h3 class="display pr-10 text-lg leading-snug">{r.data.title}</h3>
+                <p class="mt-2 text-[0.9rem] leading-relaxed opacity-80">{r.data.description}</p>
               </a>
             </li>
           ))}

@@ -1,11 +1,11 @@
 @import 'tailwindcss';
 
-/* ————— Editorial design tokens —————
-   Register: quality journalism. Warm paper, ink, one restrained accent
-   (bottle green). Fraunces (variable, self-hosted) for display; body reads
-   in a high-quality system serif stack (0 extra font bytes).
-   Light + dark are both first-class, driven purely by prefers-color-scheme
-   (no toggle: the site ships 0 KB JS by design). */
+/* ————— Editorial design system, v2 —————
+   Register: bold editorial — mega serif display (Fraunces), color-blocked
+   bento cards with per-pillar washes, pill chips, ink header/footer bands.
+   Still 0 KB JS (CI-asserted): navigation morphs use CSS cross-document
+   view transitions; reveals use CSS scroll-driven animations. Both are
+   progressive enhancements behind @supports / @media guards. */
 
 @font-face {
   font-family: 'Fraunces';
@@ -16,26 +16,49 @@
 }
 
 :root {
-  --c-paper: oklch(0.977 0.007 84);
-  --c-paper-raised: oklch(0.955 0.009 84);
-  --c-ink: oklch(0.235 0.014 60);
-  --c-ink-muted: oklch(0.47 0.014 60);
-  --c-accent: oklch(0.42 0.075 165);
+  --c-paper: oklch(0.976 0.008 84);
+  --c-paper-raised: oklch(0.945 0.011 84);
+  --c-ink: oklch(0.215 0.015 60);
+  --c-ink-muted: oklch(0.46 0.015 60);
+  --c-accent: oklch(0.44 0.085 165);
   --c-accent-ink: oklch(0.34 0.07 165);
-  --c-rule: oklch(0.885 0.01 84);
-  --c-rule-strong: oklch(0.78 0.012 84);
+  --c-rule: oklch(0.885 0.012 84);
+  --c-rule-strong: oklch(0.76 0.014 84);
+  --c-band: oklch(0.215 0.018 75);
+  --c-band-ink: oklch(0.965 0.01 84);
+  --c-band-muted: oklch(0.72 0.015 80);
+  /* pillar washes */
+  --c-law: oklch(0.925 0.05 162);
+  --c-law-ink: oklch(0.3 0.065 162);
+  --c-guides: oklch(0.935 0.06 82);
+  --c-guides-ink: oklch(0.34 0.075 70);
+  --c-platforms: oklch(0.925 0.05 305);
+  --c-platforms-ink: oklch(0.32 0.075 305);
+  --c-cities: oklch(0.925 0.048 235);
+  --c-cities-ink: oklch(0.31 0.065 240);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --c-paper: oklch(0.195 0.011 70);
-    --c-paper-raised: oklch(0.235 0.012 70);
-    --c-ink: oklch(0.9 0.008 84);
-    --c-ink-muted: oklch(0.68 0.01 84);
-    --c-accent: oklch(0.72 0.09 165);
-    --c-accent-ink: oklch(0.78 0.09 165);
-    --c-rule: oklch(0.32 0.012 70);
-    --c-rule-strong: oklch(0.42 0.014 70);
+    --c-paper: oklch(0.172 0.012 70);
+    --c-paper-raised: oklch(0.225 0.014 70);
+    --c-ink: oklch(0.915 0.009 84);
+    --c-ink-muted: oklch(0.67 0.012 84);
+    --c-accent: oklch(0.72 0.095 165);
+    --c-accent-ink: oklch(0.79 0.095 165);
+    --c-rule: oklch(0.3 0.013 70);
+    --c-rule-strong: oklch(0.42 0.015 70);
+    --c-band: oklch(0.135 0.012 70);
+    --c-band-ink: oklch(0.94 0.01 84);
+    --c-band-muted: oklch(0.62 0.013 80);
+    --c-law: oklch(0.26 0.045 162);
+    --c-law-ink: oklch(0.85 0.07 162);
+    --c-guides: oklch(0.27 0.05 80);
+    --c-guides-ink: oklch(0.87 0.08 85);
+    --c-platforms: oklch(0.265 0.05 305);
+    --c-platforms-ink: oklch(0.86 0.07 305);
+    --c-cities: oklch(0.26 0.045 235);
+    --c-cities-ink: oklch(0.85 0.06 235);
   }
 }
 
@@ -48,6 +71,9 @@
   --color-accent-ink: var(--c-accent-ink);
   --color-rule: var(--c-rule);
   --color-rule-strong: var(--c-rule-strong);
+  --color-band: var(--c-band);
+  --color-band-ink: var(--c-band-ink);
+  --color-band-muted: var(--c-band-muted);
   --font-display: 'Fraunces', 'Iowan Old Style', Georgia, serif;
   --font-serif: 'Iowan Old Style', 'Palatino Nova', Palatino, Georgia, serif;
   --font-sans: system-ui, -apple-system, 'Segoe UI', sans-serif;
@@ -66,29 +92,235 @@ html {
   color: var(--c-paper);
 }
 
+:focus-visible {
+  outline: 2px solid var(--c-accent);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* ————— Cross-document view transitions (0 JS) ————— */
+@view-transition {
+  navigation: auto;
+}
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 0.22s;
+}
+@media (prefers-reduced-motion: reduce) {
+  @view-transition {
+    navigation: none;
+  }
+}
+
 /* ————— Display type ————— */
 .display {
   font-family: var(--font-display);
   font-optical-sizing: auto;
-  font-weight: 560;
-  letter-spacing: -0.015em;
-  line-height: 1.08;
+  font-weight: 590;
+  letter-spacing: -0.018em;
+  line-height: 1.06;
+  text-wrap: balance;
+}
+
+.display-hero {
+  font-family: var(--font-display);
+  font-optical-sizing: auto;
+  font-weight: 680;
+  letter-spacing: -0.035em;
+  line-height: 0.94;
   text-wrap: balance;
 }
 
 .eyebrow {
   font-family: var(--font-sans);
-  font-size: 0.72rem;
-  font-weight: 600;
-  letter-spacing: 0.14em;
+  font-size: 0.7rem;
+  font-weight: 650;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: var(--c-accent-ink);
+}
+
+/* ————— Chips ————— */
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45em;
+  border-radius: 999px;
+  padding: 0.5rem 1.05rem;
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  font-weight: 560;
+  line-height: 1;
+  border: 1px solid var(--c-rule-strong);
+  color: var(--c-ink);
+  background: transparent;
+  white-space: nowrap;
+  transition: background 0.18s ease, color 0.18s ease, border-color 0.18s ease,
+    transform 0.18s ease;
+}
+.chip:hover {
+  background: var(--c-ink);
+  border-color: var(--c-ink);
+  color: var(--c-paper);
+  transform: translateY(-1px);
+}
+.chip-active {
+  background: var(--c-ink);
+  border-color: var(--c-ink);
+  color: var(--c-paper);
+}
+.chip .count {
+  font-size: 0.72rem;
+  font-weight: 460;
+  opacity: 0.65;
+}
+.chip-soft {
+  border-color: transparent;
+  background: var(--c-paper-raised);
+}
+
+/* ————— Cards ————— */
+.card {
+  position: relative;
+  display: block;
+  border-radius: 1.6rem;
+  padding: 1.6rem;
+  overflow: hidden;
+  transition: transform 0.28s cubic-bezier(0.2, 0.7, 0.2, 1), box-shadow 0.28s ease;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 40px -18px oklch(0.2 0.02 70 / 0.35);
+}
+.card-arrow {
+  position: absolute;
+  top: 1.3rem;
+  right: 1.3rem;
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  font-family: var(--font-sans);
+  font-size: 1.05rem;
+  background: oklch(from var(--c-paper) l c h / 0.55);
+  transition: transform 0.28s cubic-bezier(0.2, 0.7, 0.2, 1), background 0.2s ease;
+}
+.card:hover .card-arrow {
+  transform: translate(4px, -4px);
+}
+
+/* Pillar washes */
+.wash-law {
+  background: var(--c-law);
+  color: var(--c-law-ink);
+}
+.wash-guides {
+  background: var(--c-guides);
+  color: var(--c-guides-ink);
+}
+.wash-platforms {
+  background: var(--c-platforms);
+  color: var(--c-platforms-ink);
+}
+.wash-cities {
+  background: var(--c-cities);
+  color: var(--c-cities-ink);
+}
+.wash-law .chip-on-wash {
+  border-color: oklch(from var(--c-law-ink) l c h / 0.3);
+  color: var(--c-law-ink);
+}
+.wash-guides .chip-on-wash {
+  border-color: oklch(from var(--c-guides-ink) l c h / 0.3);
+  color: var(--c-guides-ink);
+}
+.wash-platforms .chip-on-wash {
+  border-color: oklch(from var(--c-platforms-ink) l c h / 0.3);
+  color: var(--c-platforms-ink);
+}
+.wash-cities .chip-on-wash {
+  border-color: oklch(from var(--c-cities-ink) l c h / 0.3);
+  color: var(--c-cities-ink);
+}
+
+/* Chips on ink bands */
+.chip-band {
+  border-color: oklch(from var(--c-band-ink) l c h / 0.28);
+  color: var(--c-band-ink);
+}
+.chip-band:hover {
+  background: var(--c-band-ink);
+  border-color: var(--c-band-ink);
+  color: var(--c-band);
+}
+.chip-band.chip-active {
+  background: var(--c-band-ink);
+  border-color: var(--c-band-ink);
+  color: var(--c-band);
+}
+
+/* ————— Photography ————— */
+.photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: saturate(0.84) contrast(1.03);
+}
+.card .photo {
+  transition: transform 0.5s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+.card:hover .photo {
+  transform: scale(1.035);
+}
+
+/* Featured (ink) card */
+.card-feature {
+  background: var(--c-band);
+  color: var(--c-band-ink);
+  background-image: radial-gradient(
+    60rem 30rem at 85% -20%,
+    oklch(from var(--c-accent) l c h / 0.28),
+    transparent 60%
+  );
+}
+
+/* ————— Scroll-driven reveals (0 JS, progressive) ————— */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .reveal {
+      animation: rise linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 40%;
+    }
+  }
+}
+/* transform-only: content stays visible without scroll (print, capture, anchors) */
+@keyframes rise {
+  from {
+    transform: translateY(1.8rem) scale(0.985);
+  }
+  to {
+    transform: none;
+  }
+}
+
+/* ————— Score bars ————— */
+.score-bar {
+  height: 0.55rem;
+  border-radius: 999px;
+  background: oklch(from currentColor l c h / 0.16);
+  overflow: hidden;
+}
+.score-bar > div {
+  height: 100%;
+  border-radius: 999px;
+  background: currentColor;
 }
 
 /* ————— Article prose (markdown output) ————— */
 .prose {
   font-size: 1.075rem;
-  line-height: 1.72;
+  line-height: 1.74;
   max-width: 42rem;
 }
 .prose > * + * {
@@ -97,27 +329,29 @@ html {
 .prose h2 {
   font-family: var(--font-display);
   font-optical-sizing: auto;
-  font-weight: 560;
-  font-size: 1.55rem;
-  line-height: 1.22;
-  letter-spacing: -0.01em;
-  margin-top: 2.2em;
+  font-weight: 590;
+  font-size: 1.6rem;
+  line-height: 1.2;
+  letter-spacing: -0.014em;
+  margin-top: 2.3em;
   text-wrap: balance;
 }
 .prose h3 {
   font-family: var(--font-display);
-  font-weight: 600;
-  font-size: 1.18rem;
+  font-weight: 620;
+  font-size: 1.2rem;
   margin-top: 1.8em;
 }
 .prose a {
   color: var(--c-accent-ink);
   text-decoration: underline;
-  text-decoration-thickness: 1px;
+  text-decoration-thickness: 1.5px;
+  text-decoration-color: oklch(from var(--c-accent) l c h / 0.5);
   text-underline-offset: 3px;
+  transition: text-decoration-color 0.15s ease;
 }
 .prose a:hover {
-  text-decoration-thickness: 2px;
+  text-decoration-color: currentColor;
 }
 .prose strong {
   font-weight: 650;
@@ -135,6 +369,9 @@ html {
 .prose li + li {
   margin-top: 0.45em;
 }
+.prose li::marker {
+  color: var(--c-accent-ink);
+}
 .prose blockquote {
   border-left: 3px solid var(--c-accent);
   padding-left: 1.1rem;
@@ -143,20 +380,28 @@ html {
 }
 .prose table {
   width: 100%;
-  border-collapse: collapse;
-  font-size: 0.92rem;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 0.9rem;
   font-family: var(--font-sans);
+  border: 1px solid var(--c-rule);
+  border-radius: 1rem;
+  overflow: hidden;
 }
 .prose th {
   text-align: left;
-  font-weight: 600;
-  border-bottom: 2px solid var(--c-rule-strong);
-  padding: 0.5rem 0.6rem;
+  font-weight: 640;
+  background: var(--c-paper-raised);
+  border-bottom: 1px solid var(--c-rule-strong);
+  padding: 0.65rem 0.75rem;
 }
 .prose td {
   border-bottom: 1px solid var(--c-rule);
-  padding: 0.5rem 0.6rem;
+  padding: 0.6rem 0.75rem;
   vertical-align: top;
+}
+.prose tr:last-child td {
+  border-bottom: 0;
 }
 .prose hr {
   border: 0;
@@ -173,5 +418,10 @@ html {
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
+  }
+  .card,
+  .chip,
+  .card-arrow {
+    transition: none;
   }
 }

@@ -1,0 +1,81 @@
+---
+import { pathOf, readingMinutes, slugOf, type Article } from '../lib/articles';
+import { ARTICLE_IMG } from '../lib/images';
+import { PILLARS, fmtDate, t, type Locale } from '../lib/site';
+
+interface Props {
+  article: Article;
+  /** Full-width ink treatment for the newest piece */
+  featured?: boolean;
+}
+
+const { article, featured = false } = Astro.props;
+const locale = article.data.locale as Locale;
+const pillar = PILLARS[article.data.pillar];
+const wash = `wash-${article.data.pillar}`;
+const vt = `vt-${article.data.locale}-${slugOf(article)}`;
+const img = ARTICLE_IMG[article.data.translationKey];
+---
+
+<a
+  href={pathOf(article)}
+  class:list={['card reveal group', featured ? 'card-feature sm:col-span-2 sm:p-9' : wash]}
+>
+  <span class="card-arrow" aria-hidden="true">↗</span>
+  <div class:list={[featured && 'grid gap-8 sm:grid-cols-[1.1fr_0.9fr] sm:items-center']}>
+    <div>
+      <span class="flex flex-wrap items-center gap-2">
+        {featured && (
+          <span class="chip !border-transparent bg-accent text-white !py-1.5 !text-[0.72rem]">
+            {t('latest', locale)}
+          </span>
+        )}
+        <span class="chip chip-on-wash !py-1.5 !text-[0.72rem] !border-current/30">
+          {pillar.name[locale]}
+        </span>
+      </span>
+      <h3
+        class:list={[
+          'display mt-4 leading-tight',
+          featured ? 'text-2xl sm:text-4xl' : 'text-xl sm:text-[1.45rem]',
+        ]}
+        style={`view-transition-name: ${vt}`}
+      >
+        {article.data.title}
+      </h3>
+      <p
+        class:list={[
+          'mt-3 leading-relaxed opacity-80',
+          featured ? 'text-base sm:text-lg max-w-xl' : 'text-[0.95rem]',
+        ]}
+      >
+        {article.data.description}
+      </p>
+      <p class="mt-4 flex items-center gap-3 font-sans text-xs opacity-70">
+        <span>{t('updated', locale)} {fmtDate(article.data.updatedAt, locale)}</span>
+        <span aria-hidden="true">·</span>
+        <span>{readingMinutes(article)} {t('minRead', locale)}</span>
+      </p>
+    </div>
+    {img && (
+      <div
+        class:list={[
+          'overflow-hidden',
+          featured
+            ? 'rounded-2xl aspect-[4/3] sm:aspect-[3/4] sm:max-h-80'
+            : 'mt-5 rounded-2xl aspect-[16/10]',
+        ]}
+      >
+        <img
+          src={img.src}
+          alt={img.alt[locale]}
+          width="720"
+          height="1080"
+          loading="lazy"
+          decoding="async"
+          class="photo"
+        />
+      </div>
+    )}
+  </div>
+</a>

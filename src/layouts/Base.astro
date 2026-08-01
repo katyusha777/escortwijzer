@@ -20,11 +20,23 @@ interface Props {
   alternates: Partial<Record<Locale, string>>;
   jsonLd?: object[];
   ogType?: 'website' | 'article';
+  /** Wider container for grid pages (home, hubs) */
+  wide?: boolean;
 }
 
-const { locale, title, description, path, alternates, jsonLd = [], ogType = 'website' } = Astro.props;
+const {
+  locale,
+  title,
+  description,
+  path,
+  alternates,
+  jsonLd = [],
+  ogType = 'website',
+  wide = false,
+} = Astro.props;
 const canonical = SITE_URL + path;
 const xDefault = alternates.nl ?? path;
+const currentPillarSlug = path.split('/')[2] ?? '';
 ---
 
 <!doctype html>
@@ -48,7 +60,7 @@ const xDefault = alternates.nl ?? path;
     <meta property="og:locale" content={locale === 'nl' ? 'nl_NL' : 'en_GB'} />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f8f6f1" />
-    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#1c1a17" />
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#17150f" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link
       rel="preload"
@@ -69,20 +81,20 @@ const xDefault = alternates.nl ?? path;
       {t('skipToContent', locale)}
     </a>
 
-    <header class="border-b border-rule">
-      <div class="mx-auto max-w-3xl px-5">
-        <div class="flex items-baseline justify-between pt-5 pb-3">
-          <a href={`/${locale}/`} class="display text-xl tracking-tight">
+    <header class="px-3 pt-3 sm:px-4 sm:pt-4">
+      <div class="mx-auto max-w-6xl rounded-[1.75rem] bg-band text-band-ink">
+        <div class="flex items-center justify-between gap-4 px-5 pt-4 sm:px-7">
+          <a href={`/${locale}/`} class="display text-[1.35rem] tracking-tight">
             {SITE_NAME}<span class="text-accent">.nl</span>
           </a>
-          <nav aria-label="Language" class="flex gap-2 font-sans text-xs">
+          <nav aria-label="Language" class="flex gap-1.5">
             {LOCALES.map((l) => (
               <a
                 href={alternates[l] ?? `/${l}/`}
                 aria-current={l === locale ? 'true' : undefined}
                 class:list={[
-                  'px-1.5 py-1 uppercase tracking-wider',
-                  l === locale ? 'font-semibold text-ink' : 'text-ink-muted hover:text-ink',
+                  'chip chip-band !px-3 !py-1.5 !text-[0.7rem] uppercase tracking-wider',
+                  l === locale && 'chip-active',
                 ]}
               >
                 {l}
@@ -92,35 +104,62 @@ const xDefault = alternates.nl ?? path;
         </div>
         <nav
           aria-label="Sections"
-          class="-mx-5 flex gap-5 overflow-x-auto px-5 pb-3 font-sans text-[0.82rem] whitespace-nowrap"
+          class="flex gap-2 overflow-x-auto px-5 pb-4 pt-3 sm:px-7 [scrollbar-width:none]"
         >
-          {Object.entries(PILLARS).map(([, p]) => (
+          {Object.entries(PILLARS).map(([key, p]) => (
             <a
               href={`/${locale}/${p.slug[locale]}/`}
-              class="text-ink-muted hover:text-ink"
+              class:list={[
+                'chip chip-band',
+                p.slug[locale] === currentPillarSlug && 'chip-active',
+              ]}
             >
               {p.name[locale]}
             </a>
           ))}
-          <a href={t('aboutPath', locale)} class="text-ink-muted hover:text-ink">
-            {t('about', locale)}
-          </a>
+          <a href={t('aboutPath', locale)} class="chip chip-band">{t('about', locale)}</a>
         </nav>
       </div>
     </header>
 
-    <main id="main" class="mx-auto max-w-3xl px-5 py-10">
+    <main
+      id="main"
+      class:list={['mx-auto px-5', wide ? 'max-w-6xl py-10 sm:py-14' : 'max-w-3xl py-10']}
+    >
       <slot />
     </main>
 
-    <footer class="mt-16 border-t border-rule">
-      <div class="mx-auto max-w-3xl px-5 py-8 font-sans text-[0.8rem] leading-relaxed text-ink-muted">
-        <p>{t('footerDisclosure', locale)}</p>
-        <p class="mt-3">
-          <a href={t('aboutPath', locale)} class="underline underline-offset-2 hover:text-ink">
-            {t('about', locale)}
-          </a>
-          · © {new Date().getFullYear()} {SITE_NAME}
+    <footer class="px-3 pb-3 sm:px-4 sm:pb-4">
+      <div class="mx-auto max-w-6xl rounded-[1.75rem] bg-band text-band-ink px-5 py-10 sm:px-10 sm:py-14">
+        <p class="display-hero text-[clamp(2.6rem,9vw,6rem)]">
+          {SITE_NAME}<span class="text-accent">.nl</span>
+        </p>
+        <p class="mt-4 max-w-md text-band-muted leading-snug">{t('tagline', locale)}</p>
+        <div class="mt-10 grid gap-8 sm:grid-cols-3">
+          <nav aria-label="Pillars" class="grid gap-2 font-sans text-[0.9rem]">
+            {Object.values(PILLARS).map((p) => (
+              <a href={`/${locale}/${p.slug[locale]}/`} class="text-band-muted hover:text-band-ink">
+                {p.name[locale]}
+              </a>
+            ))}
+          </nav>
+          <nav aria-label="Meta" class="grid gap-2 font-sans text-[0.9rem] content-start">
+            <a href={t('aboutPath', locale)} class="text-band-muted hover:text-band-ink">
+              {t('about', locale)}
+            </a>
+            <a
+              href={`/${locale}/platforms/${locale === 'nl' ? 'methodologie' : 'methodology'}/`}
+              class="text-band-muted hover:text-band-ink"
+            >
+              {locale === 'nl' ? 'Methodologie' : 'Methodology'}
+            </a>
+          </nav>
+          <p class="font-sans text-[0.78rem] leading-relaxed text-band-muted">
+            {t('footerDisclosure', locale)}
+          </p>
+        </div>
+        <p class="mt-10 border-t border-band-ink/15 pt-5 font-sans text-[0.75rem] text-band-muted">
+          © {new Date().getFullYear()} {SITE_NAME} · best-escorts.nl
         </p>
       </div>
     </footer>

@@ -54,6 +54,11 @@ export function siblingsOf(article: Article, entries: Article[]): Partial<Record
   return out;
 }
 
+export function readingMinutes(article: Article): number {
+  const words = (article.body ?? '').split(/\s+/).length;
+  return Math.max(1, Math.round(words / 220));
+}
+
 export function relatedOf(article: Article, entries: Article[]): Article[] {
   return article.data.related
     .map((key) =>

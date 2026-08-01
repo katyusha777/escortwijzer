@@ -99,6 +99,15 @@ export const UI: Record<string, Record<Locale, string>> = {
     en: 'This page does not exist (anymore). Return to the homepage.',
   },
   skipToContent: { nl: 'Naar inhoud', en: 'Skip to content' },
+  minRead: { nl: 'min leestijd', en: 'min read' },
+  latest: { nl: 'Nieuwste', en: 'Latest' },
+  heroTitle: { nl: 'De eerlijke gids.', en: 'The honest guide.' },
+  heroBadge: { nl: 'Onafhankelijk & redactioneel', en: 'Independent & editorial' },
+  heroFact1: { nl: 'Sekswerk is legaal in Nederland sinds 1 oktober 2000', en: 'Sex work has been legal in the Netherlands since 1 Oct 2000' },
+  heroFact2: { nl: 'Elke bewering onderbouwd met officiële bronnen', en: 'Every claim backed by official sources' },
+  heroFactCta: { nl: 'Lees hoe de wet werkt', en: 'Read how the law works' },
+  articles: { nl: 'artikelen', en: 'articles' },
+  languages: { nl: 'NL · EN', en: 'NL · EN' },
 };
 
 export const t = (key: keyof typeof UI, locale: Locale): string => UI[key][locale];
