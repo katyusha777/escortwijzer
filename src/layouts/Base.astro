@@ -1,0 +1,128 @@
+---
+import '../styles/global.css';
+import {
+  LOCALES,
+  PILLARS,
+  SITE_NAME,
+  SITE_URL,
+  htmlLang,
+  t,
+  type Locale,
+} from '../lib/site';
+
+interface Props {
+  locale: Locale;
+  title: string;
+  description: string;
+  /** Path of this page, with trailing slash, e.g. /nl/wetgeving/is-escort-legaal/ */
+  path: string;
+  /** Locale → path map for hreflang + the locale switcher. Includes self. */
+  alternates: Partial<Record<Locale, string>>;
+  jsonLd?: object[];
+  ogType?: 'website' | 'article';
+}
+
+const { locale, title, description, path, alternates, jsonLd = [], ogType = 'website' } = Astro.props;
+const canonical = SITE_URL + path;
+const xDefault = alternates.nl ?? path;
+---
+
+<!doctype html>
+<html lang={htmlLang[locale]}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    {Object.entries(alternates).map(([l, p]) => (
+      <link rel="alternate" hreflang={l} href={SITE_URL + p} />
+    ))}
+    <link rel="alternate" hreflang="x-default" href={SITE_URL + xDefault} />
+    <meta property="og:type" content={ogType} />
+    <meta property="og:site_name" content={SITE_NAME} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={`${SITE_URL}/og/default.png`} />
+    <meta property="og:locale" content={locale === 'nl' ? 'nl_NL' : 'en_GB'} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f8f6f1" />
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#1c1a17" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link
+      rel="preload"
+      href="/fonts/fraunces-var.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    {jsonLd.map((obj) => (
+      <script type="application/ld+json" set:html={JSON.stringify(obj)} />
+    ))}
+  </head>
+  <body class="min-h-dvh bg-paper text-ink antialiased">
+    <a
+      href="#main"
+      class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:bg-paper focus:px-3 focus:py-2"
+    >
+      {t('skipToContent', locale)}
+    </a>
+
+    <header class="border-b border-rule">
+      <div class="mx-auto max-w-3xl px-5">
+        <div class="flex items-baseline justify-between pt-5 pb-3">
+          <a href={`/${locale}/`} class="display text-xl tracking-tight">
+            {SITE_NAME}<span class="text-accent">.nl</span>
+          </a>
+          <nav aria-label="Language" class="flex gap-2 font-sans text-xs">
+            {LOCALES.map((l) => (
+              <a
+                href={alternates[l] ?? `/${l}/`}
+                aria-current={l === locale ? 'true' : undefined}
+                class:list={[
+                  'px-1.5 py-1 uppercase tracking-wider',
+                  l === locale ? 'font-semibold text-ink' : 'text-ink-muted hover:text-ink',
+                ]}
+              >
+                {l}
+              </a>
+            ))}
+          </nav>
+        </div>
+        <nav
+          aria-label="Sections"
+          class="-mx-5 flex gap-5 overflow-x-auto px-5 pb-3 font-sans text-[0.82rem] whitespace-nowrap"
+        >
+          {Object.entries(PILLARS).map(([, p]) => (
+            <a
+              href={`/${locale}/${p.slug[locale]}/`}
+              class="text-ink-muted hover:text-ink"
+            >
+              {p.name[locale]}
+            </a>
+          ))}
+          <a href={t('aboutPath', locale)} class="text-ink-muted hover:text-ink">
+            {t('about', locale)}
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="mx-auto max-w-3xl px-5 py-10">
+      <slot />
+    </main>
+
+    <footer class="mt-16 border-t border-rule">
+      <div class="mx-auto max-w-3xl px-5 py-8 font-sans text-[0.8rem] leading-relaxed text-ink-muted">
+        <p>{t('footerDisclosure', locale)}</p>
+        <p class="mt-3">
+          <a href={t('aboutPath', locale)} class="underline underline-offset-2 hover:text-ink">
+            {t('about', locale)}
+          </a>
+          · © {new Date().getFullYear()} {SITE_NAME}
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

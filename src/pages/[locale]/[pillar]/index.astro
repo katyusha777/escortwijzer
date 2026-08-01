@@ -1,0 +1,59 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { allArticles, pathOf } from '../../../lib/articles';
+import { breadcrumbJsonLd } from '../../../lib/seo';
+import { LOCALES, PILLARS, SITE_NAME, SITE_URL, fmtDate, t, type Locale, type Pillar } from '../../../lib/site';
+
+export async function getStaticPaths() {
+  return LOCALES.flatMap((locale) =>
+    (Object.keys(PILLARS) as Pillar[]).map((pillar) => ({
+      params: { locale, pillar: PILLARS[pillar].slug[locale] },
+      props: { pillarKey: pillar },
+    }))
+  );
+}
+
+const locale = Astro.params.locale as Locale;
+const { pillarKey } = Astro.props;
+const pillar = PILLARS[pillarKey as Pillar];
+
+const entries = (await allArticles())
+  .filter((e) => e.data.locale === locale && e.data.pillar === pillarKey)
+  .sort((a, b) => b.data.updatedAt.getTime() - a.data.updatedAt.getTime());
+
+const path = `/${locale}/${pillar.slug[locale]}/`;
+const alternates = Object.fromEntries(LOCALES.map((l) => [l, `/${l}/${pillar.slug[l]}/`]));
+const jsonLd = [
+  breadcrumbJsonLd([
+    { name: t('home', locale), url: `${SITE_URL}/${locale}/` },
+    { name: pillar.name[locale], url: SITE_URL + path },
+  ]),
+];
+---
+
+<Base
+  locale={locale}
+  title={`${pillar.name[locale]} — ${SITE_NAME}`}
+  description={pillar.intro[locale]}
+  path={path}
+  alternates={alternates}
+  jsonLd={jsonLd}
+>
+  <p class="eyebrow">{SITE_NAME}.nl</p>
+  <h1 class="display mt-2 text-3xl sm:text-4xl">{pillar.name[locale]}</h1>
+  <p class="mt-4 max-w-xl text-lg leading-snug text-ink-muted">{pillar.intro[locale]}</p>
+
+  <ul class="mt-10 space-y-8 border-t border-rule pt-8">
+    {entries.map((a) => (
+      <li>
+        <a href={pathOf(a)} class="group block">
+          <h2 class="display text-xl leading-snug group-hover:text-accent-ink">{a.data.title}</h2>
+          <p class="mt-1.5 text-[0.95rem] leading-relaxed text-ink-muted">{a.data.description}</p>
+          <p class="mt-1.5 font-sans text-xs text-ink-muted">
+            {t('updated', locale)} {fmtDate(a.data.updatedAt, locale)}
+          </p>
+        </a>
+      </li>
+    ))}
+  </ul>
+</Base>

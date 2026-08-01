@@ -1,0 +1,67 @@
+---
+import Base from '../../layouts/Base.astro';
+import { allArticles, pathOf, type Article } from '../../lib/articles';
+import { organizationJsonLd, websiteJsonLd } from '../../lib/seo';
+import { LOCALES, PILLARS, SITE_NAME, fmtDate, t, type Locale, type Pillar } from '../../lib/site';
+
+export async function getStaticPaths() {
+  return LOCALES.map((locale) => ({ params: { locale } }));
+}
+
+const locale = Astro.params.locale as Locale;
+const entries = (await allArticles()).filter((e) => e.data.locale === locale);
+const byPillar = (p: Pillar): Article[] =>
+  entries
+    .filter((e) => e.data.pillar === p)
+    .sort((a, b) => b.data.updatedAt.getTime() - a.data.updatedAt.getTime());
+
+const alternates = Object.fromEntries(LOCALES.map((l) => [l, `/${l}/`]));
+const title =
+  locale === 'nl'
+    ? 'Best Escorts — de gids voor legale erotische dienstverlening in Nederland'
+    : 'Best Escorts — the guide to legal adult services in the Netherlands';
+---
+
+<Base
+  locale={locale}
+  title={title}
+  description={t('tagline', locale)}
+  path={`/${locale}/`}
+  alternates={alternates}
+  jsonLd={[organizationJsonLd(), websiteJsonLd(locale)]}
+>
+  <div class="border-b border-rule pb-8">
+    <h1 class="display text-3xl sm:text-4xl">{SITE_NAME}<span class="text-accent">.nl</span></h1>
+    <p class="mt-3 max-w-xl text-lg leading-snug text-ink-muted">{t('tagline', locale)}</p>
+  </div>
+
+  {(Object.keys(PILLARS) as Pillar[]).map((p) => {
+    const list = byPillar(p);
+    return list.length > 0 ? (
+      <section class="mt-10">
+        <div class="flex items-baseline justify-between">
+          <h2 class="eyebrow">
+            <a href={`/${locale}/${PILLARS[p].slug[locale]}/`}>{PILLARS[p].name[locale]}</a>
+          </h2>
+        </div>
+        <ul class="mt-4 space-y-6">
+          {list.map((a) => (
+            <li>
+              <a href={pathOf(a)} class="group block">
+                <h3 class="display text-xl leading-snug group-hover:text-accent-ink">
+                  {a.data.title}
+                </h3>
+                <p class="mt-1.5 text-[0.95rem] leading-relaxed text-ink-muted">
+                  {a.data.description}
+                </p>
+                <p class="mt-1.5 font-sans text-xs text-ink-muted">
+                  {t('updated', locale)} {fmtDate(a.data.updatedAt, locale)}
+                </p>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ) : null;
+  })}
+</Base>

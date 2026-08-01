@@ -1,0 +1,52 @@
+---
+import Base from '../../layouts/Base.astro';
+import { breadcrumbJsonLd, organizationJsonLd } from '../../lib/seo';
+import { SITE_URL } from '../../lib/site';
+---
+
+<Base
+  locale="nl"
+  title="Over ons — Best Escorts"
+  description="Wie wij zijn, hoe deze site wordt gefinancierd en volgens welke criteria wij platforms beoordelen. Volledige transparantie over onze band met Intimate."
+  path="/nl/over-ons/"
+  alternates={{ nl: '/nl/over-ons/', en: '/en/about/' }}
+  jsonLd={[
+    organizationJsonLd(),
+    breadcrumbJsonLd([
+      { name: 'Home', url: `${SITE_URL}/nl/` },
+      { name: 'Over ons', url: `${SITE_URL}/nl/over-ons/` },
+    ]),
+  ]}
+>
+  <h1 class="display text-3xl sm:text-4xl">Over ons</h1>
+  <div class="prose mt-8">
+    <p>
+      Best Escorts is een redactionele gids over legale erotische dienstverlening in Nederland:
+      wat de wet zegt, wat diensten kosten, hoe je veilig te werk gaat en hoe de Nederlandse
+      platforms zich tot elkaar verhouden.
+    </p>
+    <h2>Transparantie: onze band met Intimate</h2>
+    <p>
+      Deze site is een onafhankelijk redactioneel project van het team achter
+      <a href="https://intimate.nl" rel="noopener">Intimate</a>, een Nederlands platform voor
+      geverifieerde advertenties. Wij vermelden dit overal waar het relevant is, omdat je als
+      lezer moet kunnen wegen wie er schrijft.
+    </p>
+    <p>
+      Wat dat in de praktijk betekent: onze reviews — óók die van Intimate zelf — volgen
+      dezelfde <a href="/nl/platforms/methodologie/">gepubliceerde criteria</a>, met scores die
+      je kunt controleren. Concurrenten krijgen de punten waar ze sterk zijn; Intimate krijgt
+      kritiek waar dat terecht is. Een gids die alleen de eigen winkel aanprijst is voor
+      niemand bruikbaar.
+    </p>
+    <h2>Hoe wij werken</h2>
+    <ul>
+      <li>Juridische artikelen verwijzen naar officiële bronnen (Rijksoverheid, gemeenten).</li>
+      <li>Reviews worden per criterium gescoord; de methodologie staat vóór elke ranking gepubliceerd.</li>
+      <li>Elk artikel toont de datum van publicatie en laatste inhoudelijke wijziging.</li>
+      <li>Wij accepteren geen betaalde plaatsingen in reviews of rankings.</li>
+    </ul>
+    <h2>Contact</h2>
+    <p>Vragen of correcties? Mail naar redactie@best-escorts.nl.</p>
+  </div>
+</Base>

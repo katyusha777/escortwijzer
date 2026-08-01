@@ -1,0 +1,18 @@
+---
+import Base from '../layouts/Base.astro';
+import { t } from '../lib/site';
+
+// Single 404 (CF serves /404.html for all misses); bilingual body.
+---
+
+<Base
+  locale="nl"
+  title="404 — Best Escorts"
+  description={t('notFound', 'nl')}
+  path="/404/"
+  alternates={{}}
+>
+  <h1 class="display text-3xl">404</h1>
+  <p class="mt-4">{t('notFoundBody', 'nl')} <a class="underline" href="/nl/">→ Homepage</a></p>
+  <p class="mt-2 text-ink-muted">{t('notFoundBody', 'en')} <a class="underline" href="/en/">→ Homepage</a></p>
+</Base>

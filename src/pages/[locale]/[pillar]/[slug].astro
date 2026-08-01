@@ -1,0 +1,179 @@
+---
+import { render } from 'astro:content';
+import Base from '../../../layouts/Base.astro';
+import { allArticles, pathOf, relatedOf, siblingsOf, slugOf } from '../../../lib/articles';
+import {
+  articleJsonLd,
+  breadcrumbJsonLd,
+  faqJsonLd,
+  itemListJsonLd,
+  overallScore,
+  reviewJsonLd,
+} from '../../../lib/seo';
+import { CRITERIA, PILLARS, SITE_NAME, SITE_URL, fmtDate, t, type CriterionId, type Locale } from '../../../lib/site';
+
+export async function getStaticPaths() {
+  const entries = await allArticles();
+  return entries.map((article) => ({
+    params: {
+      locale: article.data.locale,
+      pillar: PILLARS[article.data.pillar].slug[article.data.locale as Locale],
+      slug: slugOf(article),
+    },
+    props: { article },
+  }));
+}
+
+const { article } = Astro.props;
+const locale = article.data.locale as Locale;
+const pillar = PILLARS[article.data.pillar];
+const entries = await allArticles();
+const { Content } = await render(article);
+
+const path = pathOf(article);
+const url = SITE_URL + path;
+const alternates = siblingsOf(article, entries);
+const related = relatedOf(article, entries);
+const { faq, review, ranking, sources } = article.data;
+
+const jsonLd: object[] = [
+  articleJsonLd(article, url),
+  breadcrumbJsonLd([
+    { name: t('home', locale), url: `${SITE_URL}/${locale}/` },
+    { name: pillar.name[locale], url: `${SITE_URL}/${locale}/${pillar.slug[locale]}/` },
+    { name: article.data.title, url },
+  ]),
+];
+if (faq.length) jsonLd.push(faqJsonLd(faq));
+if (ranking?.length) jsonLd.push(itemListJsonLd(ranking));
+if (review) jsonLd.push(reviewJsonLd(article, url));
+---
+
+<Base
+  locale={locale}
+  title={`${article.data.title} — ${SITE_NAME}`}
+  description={article.data.description}
+  path={path}
+  alternates={alternates}
+  jsonLd={jsonLd}
+  ogType="article"
+>
+  <article>
+    <nav aria-label="Breadcrumb" class="font-sans text-xs text-ink-muted">
+      <a href={`/${locale}/`} class="hover:text-ink">{t('home', locale)}</a>
+      <span aria-hidden="true"> / </span>
+      <a href={`/${locale}/${pillar.slug[locale]}/`} class="hover:text-ink">{pillar.name[locale]}</a>
+    </nav>
+
+    <header class="mt-4 border-b border-rule pb-6">
+      <p class="eyebrow">{pillar.name[locale]}</p>
+      <h1 class="display mt-2 text-[1.9rem] leading-tight sm:text-4xl">{article.data.title}</h1>
+      <p class="mt-4 max-w-xl text-lg leading-snug text-ink-muted">{article.data.description}</p>
+      <p class="mt-4 font-sans text-xs text-ink-muted">
+        {t('published', locale)}
+        <time datetime={article.data.publishedAt.toISOString().slice(0, 10)}>
+          {fmtDate(article.data.publishedAt, locale)}
+        </time>
+        · {t('updated', locale)}
+        <time datetime={article.data.updatedAt.toISOString().slice(0, 10)}>
+          {fmtDate(article.data.updatedAt, locale)}
+        </time>
+      </p>
+    </header>
+
+    {review && (
+      <section class="mt-8 border border-rule bg-paper-raised p-5">
+        <div class="flex items-baseline justify-between gap-4">
+          <h2 class="eyebrow">{t('scores', locale)} — {review.platform}</h2>
+          <p class="font-sans">
+            <span class="display text-3xl text-accent-ink">{overallScore(review.scores)}</span>
+            <span class="text-xs text-ink-muted">/10</span>
+          </p>
+        </div>
+        <dl class="mt-4 space-y-2.5">
+          {Object.entries(review.scores).map(([id, score]) => (
+            <div class="grid grid-cols-[9rem_1fr_2rem] items-center gap-3 font-sans text-[0.82rem]">
+              <dt class="text-ink-muted">{CRITERIA[id as CriterionId][locale]}</dt>
+              <dd class="h-1.5 bg-rule">
+                <div class="h-full bg-accent" style={`width:${(score as number) * 10}%`} />
+              </dd>
+              <dd class="text-right tabular-nums">{score}</dd>
+            </div>
+          ))}
+        </dl>
+        <p class="mt-4 text-[0.95rem] leading-relaxed">
+          <strong class="font-sans text-[0.8rem] uppercase tracking-wider text-ink-muted">
+            {t('verdict', locale)}:
+          </strong>
+          {review.verdict}
+        </p>
+      </section>
+    )}
+
+    {ranking && ranking.length > 0 && (
+      <ol class="mt-8 space-y-4">
+        {ranking.map((r) => (
+          <li class="flex gap-4 border border-rule bg-paper-raised p-5">
+            <span class="display text-2xl text-accent-ink">{r.position}</span>
+            <div>
+              <h2 class="display text-lg">
+                <a href={r.url} rel="nofollow" class="hover:text-accent-ink">{r.name}</a>
+              </h2>
+              <p class="mt-1 text-[0.95rem] leading-relaxed text-ink-muted">{r.summary}</p>
+            </div>
+          </li>
+        ))}
+      </ol>
+    )}
+
+    <div class="prose mt-8">
+      <Content />
+    </div>
+
+    {faq.length > 0 && (
+      <section class="mt-12 border-t border-rule pt-8">
+        <h2 class="display text-2xl">{t('faq', locale)}</h2>
+        <dl class="mt-6 space-y-6">
+          {faq.map(({ q, a }) => (
+            <div>
+              <dt class="display text-lg">{q}</dt>
+              <dd class="mt-2 leading-relaxed text-ink-muted">{a}</dd>
+            </div>
+          ))}
+        </dl>
+      </section>
+    )}
+
+    {sources.length > 0 && (
+      <section class="mt-12 border-t border-rule pt-8">
+        <h2 class="eyebrow">{t('sources', locale)}</h2>
+        <ol class="mt-4 list-decimal space-y-2 pl-5 font-sans text-[0.85rem]">
+          {sources.map((s) => (
+            <li>
+              <a href={s.url} class="underline underline-offset-2 hover:text-accent-ink">{s.title}</a>
+              {s.publisher && <span class="text-ink-muted"> — {s.publisher}</span>}
+            </li>
+          ))}
+        </ol>
+      </section>
+    )}
+
+    {related.length > 0 && (
+      <section class="mt-12 border-t border-rule pt-8">
+        <h2 class="eyebrow">{t('related', locale)}</h2>
+        <ul class="mt-4 space-y-4">
+          {related.map((r) => (
+            <li>
+              <a href={pathOf(r)} class="group block">
+                <h3 class="display text-lg leading-snug group-hover:text-accent-ink">
+                  {r.data.title}
+                </h3>
+                <p class="mt-1 text-[0.9rem] text-ink-muted">{r.data.description}</p>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+  </article>
+</Base>

@@ -1,0 +1,50 @@
+---
+import Base from '../../layouts/Base.astro';
+import { breadcrumbJsonLd, organizationJsonLd } from '../../lib/seo';
+import { SITE_URL } from '../../lib/site';
+---
+
+<Base
+  locale="en"
+  title="About — Best Escorts"
+  description="Who we are, how this site is funded and the criteria we score platforms against. Full transparency about our affiliation with Intimate."
+  path="/en/about/"
+  alternates={{ nl: '/nl/over-ons/', en: '/en/about/' }}
+  jsonLd={[
+    organizationJsonLd(),
+    breadcrumbJsonLd([
+      { name: 'Home', url: `${SITE_URL}/en/` },
+      { name: 'About', url: `${SITE_URL}/en/about/` },
+    ]),
+  ]}
+>
+  <h1 class="display text-3xl sm:text-4xl">About</h1>
+  <div class="prose mt-8">
+    <p>
+      Best Escorts is an editorial guide to legal adult services in the Netherlands: what the
+      law says, what services cost, how to stay safe, and how the Dutch platforms compare.
+    </p>
+    <h2>Transparency: our affiliation with Intimate</h2>
+    <p>
+      This site is an independent editorial project by the team behind
+      <a href="https://intimate.nl" rel="noopener">Intimate</a>, a Dutch platform for verified
+      listings. We state this wherever relevant, because as a reader you should be able to
+      weigh who is writing.
+    </p>
+    <p>
+      In practice: our reviews — including the one of Intimate itself — follow the same
+      <a href="/en/platforms/methodology/">published criteria</a>, with scores you can check.
+      Competitors get credit where they are strong; Intimate gets criticism where it is due. A
+      guide that only praises its own shop is useful to no one.
+    </p>
+    <h2>How we work</h2>
+    <ul>
+      <li>Legal articles reference official sources (national government, municipalities).</li>
+      <li>Reviews are scored per criterion; the methodology is published before any ranking.</li>
+      <li>Every article shows its publication date and the date of the last substantive change.</li>
+      <li>We do not accept paid placements in reviews or rankings.</li>
+    </ul>
+    <h2>Contact</h2>
+    <p>Questions or corrections? Email redactie@best-escorts.nl.</p>
+  </div>
+</Base>
