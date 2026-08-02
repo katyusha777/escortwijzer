@@ -49,7 +49,7 @@ review:
 
 EscortNews Netherlands listed about 860 ads at our count, 551 of them in Amsterdam — 64 percent of the entire country in one city. Verification stops at a staff photo check, the city menu lists The Hague twice under two names, and the whole package scores a 4.6 in our test.
 
-**Disclosure up front:** best-escorts.nl is run by the team behind Intimate.nl, a competing Dutch platform. That is exactly why this review sticks to our [published methodology](/en/platforms/methodology/): every criterion gets a score you can verify yourself, and the directory gets credit where it earns it.
+**Disclosure up front:** escortwijzer.nl is run by the team behind Intimate.nl, a competing Dutch platform. That is exactly why this review sticks to our [published methodology](/en/platforms/methodology/): every criterion gets a score you can verify yourself, and the directory gets credit where it earns it.
 
 ## What is EscortNews and who runs it?
 

@@ -55,7 +55,7 @@ review:
 
 Boys4u.nl is the Netherlands' dedicated platform for male sex workers — Sekswerk.info, the Dutch public-information site for the industry, lists it as the site for men seeking male clients — and it scores 5.7 in our test. The build-up of that score matters more than the average: strong numbers for pricing transparency and languages, features the big hetero marketplaces don't have, a failing grade for inventory, and one thing to know before you start: contacting anyone costs money, €24.95 minimum.
 
-**Disclosure first:** best-escorts.nl is made by the team behind Intimate.nl. This review follows our [published methodology](/en/platforms/methodology/), with a verifiable score per criterion.
+**Disclosure first:** escortwijzer.nl is made by the team behind Intimate.nl. This review follows our [published methodology](/en/platforms/methodology/), with a verifiable score per criterion.
 
 This review deliberately widens our coverage. Our ranking has so far revolved around the big three — Kinky, Sexjobs, Intimate — which serve an almost entirely heterosexual market. Male sex workers and their clients are a market of their own with platforms of their own, and if that's where you're searching, a Kinky review tells you little. Boys4u has been the fixture in that segment for over twenty years; Rotterdam field research on male sex workers (Pays*x 010, 2024) names it among the places they advertise.
 

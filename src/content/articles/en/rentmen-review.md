@@ -55,7 +55,7 @@ review:
 
 RentMen has the verification mechanism the Dutch market mostly lacks — a government ID plus a selfie — and that alone earns it real credit, more than most rivals can claim. It still only scores 5.1 overall, because that badge is optional, users report it worn by the wrong faces, the platform suppresses negative reviews, and the Netherlands inventory is thin.
 
-**Disclosure up front:** best-escorts.nl is run by the team behind Intimate.nl, which competes for some of the same advertisers. This review follows our [published methodology](/en/platforms/methodology/) with a score per criterion you can check yourself, and RentMen gets full credit where it earns it — on verification, that credit is real but capped.
+**Disclosure up front:** escortwijzer.nl is run by the team behind Intimate.nl, which competes for some of the same advertisers. This review follows our [published methodology](/en/platforms/methodology/) with a score per criterion you can check yourself, and RentMen gets full credit where it earns it — on verification, that credit is real but capped.
 
 A point of context before the scores. Our main [ranking of Dutch escort sites](/en/platforms/best-escort-sites-netherlands/) is a general-market list. RentMen is a gay-specific international directory, judged on the same seven criteria but placed in the niche category on our [all-sites hub](/en/platforms/all-escort-sites-netherlands/). It is reviewed there deliberately, not dropped from the ranking by accident.
 

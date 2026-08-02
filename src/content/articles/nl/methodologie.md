@@ -10,7 +10,7 @@ targetQueries:
   - "hoe worden escortsites beoordeeld"
   - "zijn escort reviews betrouwbaar"
   - "escortplatforms vergelijken criteria"
-  - "methodologie best-escorts.nl"
+  - "methodologie escortwijzer.nl"
 sources:
   - title: "Intimate — Erotisch advertentieplatform"
     url: "https://intimate.nl"
@@ -25,22 +25,22 @@ sources:
     url: "https://www.platform-investico.nl/onderzoeken/op-dit-huisnummer-woont-een-prostituee"
     publisher: "Investico"
 faq:
-  - q: "Hoe beoordeelt best-escorts.nl escortplatforms?"
+  - q: "Hoe beoordeelt escortwijzer.nl escortplatforms?"
     a: "Wij scoren elk platform op zeven vaste criteria — verificatie, mobiele ervaring, snelheid, prijstransparantie, moderatie, talen en aanbod — elk van 0 tot 10. Alle deelscores worden gepubliceerd, zodat je onze conclusies zelf kunt controleren en anders kunt wegen."
-  - q: "Is best-escorts.nl onafhankelijk van de platforms die het beoordeelt?"
+  - q: "Is escortwijzer.nl onafhankelijk van de platforms die het beoordeelt?"
     a: "Nee, niet volledig, en dat zeggen we er altijd bij: deze site wordt gemaakt door het team achter Intimate. Daarom publiceren wij elke deelscore afzonderlijk en accepteren wij geen betaalde plaatsingen — je kunt elke score zelf nalopen."
   - q: "Kan een platform een hogere positie kopen?"
     a: "Nee. Wij accepteren geen betaalde plaatsingen, gesponsorde reviews of affiliate-deals die de volgorde beïnvloeden. De ranking volgt uitsluitend de gepubliceerde scores per criterium."
   - q: "Hoe vaak worden de scores herzien?"
     a: "Elk kwartaal lopen we alle platforms opnieuw langs. De datum van de laatste controle staat in elk artikel; scores wijzigen alleen na een echte hertest, nooit stilzwijgend."
   - q: "Hoe meld ik een fout in een review?"
-    a: "Mail redactie@best-escorts.nl met de fout en, als je die hebt, een bron. Wij controleren de claim, passen het artikel aan waar nodig en vermelden de correctie bij het artikel."
+    a: "Mail redactie@escortwijzer.nl met de fout en, als je die hebt, een bron. Wij controleren de claim, passen het artikel aan waar nodig en vermelden de correctie bij het artikel."
 related: [best-escort-sites, kinky-review, intimate-review, sexjobs-review]
 ---
 
 Wij beoordelen elk escortplatform op dezelfde zeven criteria — verificatie, mobiele ervaring, laadsnelheid, prijstransparantie, moderatie, talen en aanbod — elk met een score van 0 tot 10. Alle deelscores worden gepubliceerd, zodat je precies kunt zien waarom een platform staat waar het staat, en zelf anders kunt wegen als jij bijvoorbeeld aanbod belangrijker vindt dan snelheid.
 
-Deze pagina is de meetlat achter elke review en ranking op best-escorts.nl. Wijkt een artikel hiervan af, dan is dat een fout — en horen we het graag via redactie@best-escorts.nl.
+Deze pagina is de meetlat achter elke review en ranking op escortwijzer.nl. Wijkt een artikel hiervan af, dan is dat een fout — en horen we het graag via redactie@escortwijzer.nl.
 
 ## Welke zeven criteria beoordelen wij?
 
@@ -90,4 +90,4 @@ Nee. Geen betaalde posities, geen gesponsorde reviews, geen vergoeding voor een 
 
 ## Hoe werkt ons correctiebeleid?
 
-Zie je een feitelijke fout, een verouderde score of een claim die niet klopt? Mail redactie@best-escorts.nl. Wij controleren elke melding, hertesten waar nodig en passen het artikel aan; bij inhoudelijke wijzigingen werken we de `updatedAt`-datum bij en vermelden we wat er is veranderd. Daarnaast lopen we elk kwartaal alle scores opnieuw langs, zodat een review nooit stilletjes veroudert.
+Zie je een feitelijke fout, een verouderde score of een claim die niet klopt? Mail redactie@escortwijzer.nl. Wij controleren elke melding, hertesten waar nodig en passen het artikel aan; bij inhoudelijke wijzigingen werken we de `updatedAt`-datum bij en vermelden we wat er is veranderd. Daarnaast lopen we elk kwartaal alle scores opnieuw langs, zodat een review nooit stilletjes veroudert.

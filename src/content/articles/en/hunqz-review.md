@@ -55,7 +55,7 @@ review:
 
 Hunqz has the two things a gay client in the Netherlands actually wants — the largest gay-escort inventory and an interface that works in Dutch — and it earns a 5.6 overall for it. What drags that number down is the thing that matters most: verification here means another user marked a profile as someone they know in person, not that the platform ever checked an identity.
 
-**Disclosure up front:** best-escorts.nl is run by the team behind Intimate.nl, which competes for some of the same advertisers. This review follows our [published methodology](/en/platforms/methodology/) with a score per criterion you can check yourself — and Hunqz gets full credit where it earns it, which on inventory and language is more than most.
+**Disclosure up front:** escortwijzer.nl is run by the team behind Intimate.nl, which competes for some of the same advertisers. This review follows our [published methodology](/en/platforms/methodology/) with a score per criterion you can check yourself — and Hunqz gets full credit where it earns it, which on inventory and language is more than most.
 
 One thing to be clear about before the scores. Our main [ranking of Dutch escort sites](/en/platforms/best-escort-sites-netherlands/) is a general-market list. Hunqz is a gay-specific platform, judged on the same seven criteria but sitting in the niche category on our [all-sites hub](/en/platforms/all-escort-sites-netherlands/) — it is not missing from the ranking by oversight, it is reviewed where it belongs.
 

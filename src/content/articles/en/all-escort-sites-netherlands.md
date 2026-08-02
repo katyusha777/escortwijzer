@@ -55,7 +55,7 @@ related: [best-escort-sites, verified-sites, methodology, spot-fakes]
 
 Nineteen active escort sites serve the Dutch market as of August 2026: eight Dutch platforms, five international directories with a genuine Netherlands section, and six niche sites. The biggest by far is [Sexjobs.nl](https://www.sexjobs.nl) at an average of 14,371 advertisers per day ([Investico/Pointer](https://www.platform-investico.nl/onderzoeken/op-dit-huisnummer-woont-een-prostituee)); the only Dutch platform that identity-verifies every profile is [Intimate](https://intimate.nl).
 
-Disclosure first: best-escorts.nl is made by the team behind Intimate. That is exactly why this page is a plain inventory — every site is listed, every site gets its own outbound link, and where we have a full scored review, we link it. How we score is documented in our [methodology](/en/platforms/methodology/); if you want a ranking rather than a list, read [the best escort sites in the Netherlands](/en/platforms/best-escort-sites-netherlands/).
+Disclosure first: escortwijzer.nl is made by the team behind Intimate. That is exactly why this page is a plain inventory — every site is listed, every site gets its own outbound link, and where we have a full scored review, we link it. How we score is documented in our [methodology](/en/platforms/methodology/); if you want a ranking rather than a list, read [the best escort sites in the Netherlands](/en/platforms/best-escort-sites-netherlands/).
 
 One thing to know before the list: sex work is legal and regulated in the Netherlands, and these sites operate openly. But most of the market speaks Dutch. If you are visiting, the practical shortlist is short, and we flag the English-friendly options as we go.
 

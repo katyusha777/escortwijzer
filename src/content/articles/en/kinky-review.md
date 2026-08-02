@@ -59,7 +59,7 @@ review:
 
 Kinky.nl is the biggest adult advertising platform in the Benelux: online since 1999, drawing hundreds of thousands of visitors a month, with listings in virtually every Dutch and Belgian city. If you want maximum choice, you start here — no other platform comes close on volume. The trade-off: verification is optional, and both investigative journalism and police cases show that fake profiles are a recurring problem. Our scores reflect exactly that split — a 10 for inventory, middling 6s for the trust features.
 
-**Disclosure up front:** best-escorts.nl is run by the team behind Intimate.nl — a direct competitor of Kinky.nl. That is precisely why this review sticks to our [published methodology](/en/platforms/methodology/) with per-criterion scores you can check for yourself, and why Kinky gets full credit where it earns it: inventory, brand recognition and a quarter-century track record. A hit piece would be useless to you as a reader — and unfair to the platform that effectively built the Dutch market.
+**Disclosure up front:** escortwijzer.nl is run by the team behind Intimate.nl — a direct competitor of Kinky.nl. That is precisely why this review sticks to our [published methodology](/en/platforms/methodology/) with per-criterion scores you can check for yourself, and why Kinky gets full credit where it earns it: inventory, brand recognition and a quarter-century track record. A hit piece would be useless to you as a reader — and unfair to the platform that effectively built the Dutch market.
 
 ## What is Kinky.nl?
 

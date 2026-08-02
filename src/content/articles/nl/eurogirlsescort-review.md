@@ -52,7 +52,7 @@ review:
 
 EuroGirlsEscort toonde bij onze test 4.297 advertenties voor Nederland, waarvan er 691 een Verified-badge droegen — een zesde. De rest staat er ongecontroleerd, de volgorde is te koop vanaf ongeveer €8 per maand, en een Nederlandstalige interface is er niet: onze totaalscore komt uit op 5,4.
 
-**Transparantie vooraf:** best-escorts.nl wordt gemaakt door het team achter Intimate.nl, een Nederlands platform dat met deze gids concurreert om dezelfde bezoekers. Daarom volgt deze review strikt onze [gepubliceerde methodologie](/nl/platforms/methodologie/), met per criterium een score die je zelf kunt nalopen — inclusief de punten waarop EuroGirlsEscort Nederlandse platforms verslaat, want die zijn er.
+**Transparantie vooraf:** escortwijzer.nl wordt gemaakt door het team achter Intimate.nl, een Nederlands platform dat met deze gids concurreert om dezelfde bezoekers. Daarom volgt deze review strikt onze [gepubliceerde methodologie](/nl/platforms/methodologie/), met per criterium een score die je zelf kunt nalopen — inclusief de punten waarop EuroGirlsEscort Nederlandse platforms verslaat, want die zijn er.
 
 ## Wat is EuroGirlsEscort en wie zit erachter?
 

@@ -6,7 +6,7 @@ import tailwindcss from '@tailwindcss/vite';
 // requirement asserted in CI (scripts/verify.ts) — do not add prefetch or
 // view transitions without revisiting that assert.
 export default defineConfig({
-  site: 'https://best-escorts.nl',
+  site: 'https://escortwijzer.nl',
   output: 'static',
   trailingSlash: 'always',
   devToolbar: { enabled: false },

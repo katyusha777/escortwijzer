@@ -49,7 +49,7 @@ review:
 
 EscortNews Nederland telde bij onze test zo'n 860 advertenties, waarvan 551 in Amsterdam — 64 procent van het hele land in één stad. Verificatie beperkt zich tot een fotocheck, het stedenmenu vermeldt Den Haag twee keer onder twee namen, en de totaalscore blijft steken op 4,6.
 
-**Transparantie vooraf:** best-escorts.nl wordt gemaakt door het team achter Intimate.nl, een concurrerend Nederlands platform. Deze review volgt daarom onze [gepubliceerde methodologie](/nl/platforms/methodologie/): elk criterium krijgt een score die je zelf kunt controleren, en de gids krijgt krediet waar dat verdiend is.
+**Transparantie vooraf:** escortwijzer.nl wordt gemaakt door het team achter Intimate.nl, een concurrerend Nederlands platform. Deze review volgt daarom onze [gepubliceerde methodologie](/nl/platforms/methodologie/): elk criterium krijgt een score die je zelf kunt controleren, en de gids krijgt krediet waar dat verdiend is.
 
 ## Wat is EscortNews en wie zit erachter?
 

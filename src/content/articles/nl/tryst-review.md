@@ -61,7 +61,7 @@ review:
 
 Tryst.link is het enige platform in onze test waar elke advertentie — ook op het gratis abonnement — eerst fotoverificatie moet doorlopen voordat hij live gaat; dat levert een 9 voor verificatie op, het hoogste cijfer dat we op dat criterium ooit gaven. De keerzijde voor Nederland is de omvang: ten tijde van deze review telde de Nederlandse sectie voor vrouwelijke escorts 112 profielen over vijf pagina's, vrijwel allemaal Amsterdam — vandaar een totaalscore van 6,7 en geen podiumplek.
 
-**Transparantie vooraf:** best-escorts.nl wordt gemaakt door het team achter Intimate.nl, dat om dezelfde Nederlandse adverteerders concurreert. Deze review volgt daarom strikt onze [gepubliceerde methodologie](/nl/platforms/methodologie/), met controleerbare cijfers per criterium — en Tryst krijgt volledige erkenning waar het die verdient. Op verificatie is dat meer erkenning dan we ooit uitdeelden.
+**Transparantie vooraf:** escortwijzer.nl wordt gemaakt door het team achter Intimate.nl, dat om dezelfde Nederlandse adverteerders concurreert. Deze review volgt daarom strikt onze [gepubliceerde methodologie](/nl/platforms/methodologie/), met controleerbare cijfers per criterium — en Tryst krijgt volledige erkenning waar het die verdient. Op verificatie is dat meer erkenning dan we ooit uitdeelden.
 
 ## Wie zit er achter Tryst?
 

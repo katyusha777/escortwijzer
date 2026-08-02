@@ -52,7 +52,7 @@ review:
 
 EuroGirlsEscort showed 4,297 listings for the Netherlands when we tested it, and exactly 691 of them — one in six — carried a Verified badge. The rest run unchecked, the sort order is for sale from about €8 per month, and that combination lands the directory on an overall 5.4 in our scoring.
 
-**Disclosure up front:** best-escorts.nl is run by the team behind Intimate.nl, a Dutch platform competing for the same visitors this directory serves. That is why this review follows our [published methodology](/en/platforms/methodology/) with a checkable score per criterion — including the criteria where EuroGirlsEscort beats the Dutch platforms, because there are some.
+**Disclosure up front:** escortwijzer.nl is run by the team behind Intimate.nl, a Dutch platform competing for the same visitors this directory serves. That is why this review follows our [published methodology](/en/platforms/methodology/) with a checkable score per criterion — including the criteria where EuroGirlsEscort beats the Dutch platforms, because there are some.
 
 ## What is EuroGirlsEscort and who runs it?
 

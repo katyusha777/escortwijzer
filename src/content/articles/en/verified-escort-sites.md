@@ -55,7 +55,7 @@ related:
 
 Among the major Dutch escort platforms, [Intimate](https://intimate.nl/verificatie) is, as of August 2026, the only one that identity-checks every advertiser before an ad can go live; on Kinky.nl and Sexjobs.nl an advertiser only has to show ID if the site doubts they are of age, according to [Sekswerk.info](https://www.sekswerk.info/en/work/getting-started-as-a-sex-worker/finding-clients-online). "Verified profiles" is not a property of the Dutch market — it is one platform's policy choice, which is why this page puts each site's claim next to its actual check.
 
-The disclosure first, as always: best-escorts.nl is run by the team behind Intimate. That is precisely why our criteria are published in full in our [methodology](/en/platforms/methodology/), and why every row in the table below carries a source you can check yourself.
+The disclosure first, as always: escortwijzer.nl is run by the team behind Intimate. That is precisely why our criteria are published in full in our [methodology](/en/platforms/methodology/), and why every row in the table below carries a source you can check yourself.
 
 If you don't read Dutch, this comparison matters twice over: the platforms' own help pages are in Dutch, so the difference between "verified" and "we might check someday" is invisible unless someone translates it. Consider this that translation.
 

@@ -58,7 +58,7 @@ review:
 
 Sexjobs.nl is in pure aantallen de grootste erotische marktplaats van Nederland: onderzoek van Investico en Pointer telde er gemiddeld 14.371 adverteerders per dag, ruim drie keer zoveel als de 4.459 van Kinky.nl. Daar staat tegenover dat identiteitscontrole alleen bij twijfel gebeurt, het ontwerp zichtbaar uit het desktoptijdperk stamt en de interface vrijwel volledig Nederlandstalig is — vandaar onze totaalscore van 5,7: een 10 voor aanbod, vijven en zessen voor al het overige.
 
-**Transparantie vooraf:** best-escorts.nl wordt gemaakt door het team achter Intimate.nl, een concurrent van Sexjobs. Deze review volgt daarom strikt onze [gepubliceerde methodologie](/nl/platforms/methodologie/), met controleerbare scores per criterium — en Sexjobs krijgt volledige erkenning waar het dat verdient: het grootste aanbod van het land, bijna een kwart eeuw continuïteit en een breedte aan categorieën die geen enkele concurrent evenaart.
+**Transparantie vooraf:** escortwijzer.nl wordt gemaakt door het team achter Intimate.nl, een concurrent van Sexjobs. Deze review volgt daarom strikt onze [gepubliceerde methodologie](/nl/platforms/methodologie/), met controleerbare scores per criterium — en Sexjobs krijgt volledige erkenning waar het dat verdient: het grootste aanbod van het land, bijna een kwart eeuw continuïteit en een breedte aan categorieën die geen enkele concurrent evenaart.
 
 ## Wat is Sexjobs.nl?
 

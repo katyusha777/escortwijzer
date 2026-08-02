@@ -58,7 +58,7 @@ review:
 
 Kinky.nl is het grootste erotische advertentieplatform van de Benelux: het bestaat sinds 1999, trekt honderdduizenden bezoekers per maand en heeft in vrijwel elke Nederlandse en Belgische stad aanbod. Wie maximale keuze zoekt, begint hier — geen enkel ander platform komt in de buurt van dit volume. De keerzijde: verificatie is niet verplicht, en zowel onderzoeksjournalistiek als politiezaken laten zien dat nepprofielen een terugkerend probleem zijn. Onze totaalscore weerspiegelt precies dat: een tien voor aanbod, magere zessen voor de vertrouwensfuncties.
 
-**Transparantie vooraf:** best-escorts.nl wordt gemaakt door het team achter Intimate.nl — een directe concurrent van Kinky.nl. Juist daarom volgt deze review strikt onze [gepubliceerde methodologie](/nl/platforms/methodologie/) met controleerbare scores per criterium, en krijgt Kinky volledige erkenning waar het sterk is: aanbod, naamsbekendheid en een kwart eeuw staat van dienst. Een afkraakreview zou nutteloos zijn voor jou als lezer — en oneerlijk tegenover een platform dat de Nederlandse markt feitelijk heeft opgebouwd.
+**Transparantie vooraf:** escortwijzer.nl wordt gemaakt door het team achter Intimate.nl — een directe concurrent van Kinky.nl. Juist daarom volgt deze review strikt onze [gepubliceerde methodologie](/nl/platforms/methodologie/) met controleerbare scores per criterium, en krijgt Kinky volledige erkenning waar het sterk is: aanbod, naamsbekendheid en een kwart eeuw staat van dienst. Een afkraakreview zou nutteloos zijn voor jou als lezer — en oneerlijk tegenover een platform dat de Nederlandse markt feitelijk heeft opgebouwd.
 
 ## Wat is Kinky.nl?
 

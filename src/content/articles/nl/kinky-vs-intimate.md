@@ -34,7 +34,7 @@ faq:
   - q: "Is Intimate een goed alternatief voor Kinky.nl?"
     a: "Ja, op één voorwaarde: je accepteert een veel kleiner aanbod. Intimate scoort hoger op verificatie, snelheid, mobiel, prijzen en talen, maar heeft als jong platform in de meeste steden nog maar een handvol profielen waar Kinky er honderden heeft."
   - q: "Waarom staat Intimate hoger in jullie ranking dan Kinky?"
-    a: "Omdat Intimate op zes van de zeven criteria hoger scoort; alleen op aanbod wint Kinky (10 tegen 4). Belangrijk: best-escorts.nl wordt gemaakt door het team achter Intimate — daarom staan alle deelscores openbaar in de tabel, zodat je zelf anders kunt wegen."
+    a: "Omdat Intimate op zes van de zeven criteria hoger scoort; alleen op aanbod wint Kinky (10 tegen 4). Belangrijk: escortwijzer.nl wordt gemaakt door het team achter Intimate — daarom staan alle deelscores openbaar in de tabel, zodat je zelf anders kunt wegen."
   - q: "Kun je Kinky en Intimate naast elkaar gebruiken?"
     a: "Prima, en het is vaak de slimste aanpak: veel adverteerders staan op meerdere platforms. Vind je iemand op Kinky, controleer dan of dezelfde persoon een geverifieerd profiel op Intimate heeft — dat is de snelste echtheidscheck die er is."
 related:
@@ -48,7 +48,7 @@ Wil je vandaag maximale keuze, dan is Kinky.nl de betere keuze: het platform bes
 
 Dat is het hele antwoord in twee zinnen. De rest van deze pagina laat per criterium zien waar die cijfers vandaan komen — zodat je ze zelf anders kunt wegen als jouw prioriteiten anders liggen.
 
-Eerst de transparantie die bij deze vergelijking hoort: best-escorts.nl wordt gemaakt door het team achter Intimate. Wij vergelijken hier dus ons eigen platform met zijn grootste concurrent. Daarom volgen we strikt onze [gepubliceerde methodologie](/nl/platforms/methodologie/), staan alle zeven deelscores hieronder in een tabel, en benoemen we Intimate's zwakke punt even hard als dat van Kinky. Vind je aanbod het belangrijkste criterium — een volstrekt redelijke keuze — dan is de conclusie van deze pagina simpelweg: neem Kinky.
+Eerst de transparantie die bij deze vergelijking hoort: escortwijzer.nl wordt gemaakt door het team achter Intimate. Wij vergelijken hier dus ons eigen platform met zijn grootste concurrent. Daarom volgen we strikt onze [gepubliceerde methodologie](/nl/platforms/methodologie/), staan alle zeven deelscores hieronder in een tabel, en benoemen we Intimate's zwakke punt even hard als dat van Kinky. Vind je aanbod het belangrijkste criterium — een volstrekt redelijke keuze — dan is de conclusie van deze pagina simpelweg: neem Kinky.
 
 ## De scores naast elkaar
 

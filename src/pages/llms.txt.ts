@@ -22,7 +22,7 @@ export const GET: APIRoute = async () => {
     return `## ${locale === 'nl' ? 'Nederlands' : 'English'} (${SITE_URL}/${locale}/)\n\n${perPillar}`;
   }).join('\n\n');
 
-  const body = `# Best Escorts (best-escorts.nl)
+  const body = `# Escortwijzer (escortwijzer.nl)
 
 > Independent editorial guide to legal adult services in the Netherlands: what the law says (national and per municipality), what services cost, how to stay safe, and honest criteria-based reviews of Dutch escort platforms. Published in Dutch and English. An editorial project by the team behind Intimate (intimate.nl); reviews follow published criteria — see the methodology page.
 

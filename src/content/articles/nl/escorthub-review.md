@@ -51,7 +51,7 @@ review:
 
 EscortHub scoort in onze test een 2,6, het laagste totaalcijfer dat we tot nu toe publiceerden, en de kernbevinding is simpel: bij drie afzonderlijke bezoeken stuurde de Nederland-pagina ons binnen seconden door naar drie verschillende andere sites — een profiel op EuroGirlsEscort, een betaalmuur van €24,95 op boys4u.nl en twee keer netherlands.escortnews.com. Wie de site runt, blijft verborgen achter een IJslandse privacydienst, en die anonimiteit is geen voetnoot; het ís de review.
 
-**Transparantie vooraf:** best-escorts.nl wordt gemaakt door het team achter Intimate.nl. Elk cijfer hieronder volgt onze [gepubliceerde methodologie](/nl/platforms/methodologie/) en steunt op gedrag dat je zelf in een browser kunt nadoen — bij een anonieme site is waarneembaar gedrag het enige houvast dat er is.
+**Transparantie vooraf:** escortwijzer.nl wordt gemaakt door het team achter Intimate.nl. Elk cijfer hieronder volgt onze [gepubliceerde methodologie](/nl/platforms/methodologie/) en steunt op gedrag dat je zelf in een browser kunt nadoen — bij een anonieme site is waarneembaar gedrag het enige houvast dat er is.
 
 ## Wat is EscortHub eigenlijk?
 

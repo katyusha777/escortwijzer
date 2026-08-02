@@ -1,9 +1,9 @@
 // Single source of truth for site identity, locales, pillars, review
 // criteria and UI chrome strings. Everything locale-shaped lives here.
 
-export const SITE_URL = 'https://best-escorts.nl';
-export const SITE_NAME = 'Best Escorts';
-export const ORG_NAME = 'Best Escorts Redactie';
+export const SITE_URL = 'https://escortwijzer.nl';
+export const SITE_NAME = 'Escortwijzer';
+export const ORG_NAME = 'Escortwijzer Redactie';
 
 export const LOCALES = ['nl', 'en'] as const; // 'de' is a fast-follow: add here + translate content
 export type Locale = (typeof LOCALES)[number];
@@ -98,8 +98,8 @@ export const UI: Record<string, Record<Locale, string>> = {
   scores: { nl: 'Scores per criterium', en: 'Scores per criterion' },
   readMore: { nl: 'Lees verder', en: 'Read more' },
   footerDisclosure: {
-    nl: 'Best Escorts is een onafhankelijk redactioneel project van het team achter Intimate. Reviews volgen gepubliceerde criteria.',
-    en: 'Best Escorts is an independent editorial project by the team behind Intimate. Reviews follow published criteria.',
+    nl: 'Escortwijzer is een onafhankelijk redactioneel project van het team achter Intimate. Reviews volgen gepubliceerde criteria.',
+    en: 'Escortwijzer is an independent editorial project by the team behind Intimate. Reviews follow published criteria.',
   },
   notFound: { nl: 'Pagina niet gevonden', en: 'Page not found' },
   notFoundBody: {

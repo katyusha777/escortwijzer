@@ -58,7 +58,7 @@ review:
 
 Redlights.nl calls itself "the largest prostitution marketplace in the Netherlands" — a claim nobody can verify — but what we could measure adds up to a 6.1 overall, and the standout number is a 7 for moderation: alone among the free Dutch marketplaces, Redlights demonstrably reviews every ad before it goes live, within an hour during office hours. The weak spot is the naming: the "geverifieerd" (verified) label checks photos, not identity.
 
-**Disclosure first:** best-escorts.nl is made by the team behind Intimate.nl, a competitor of Redlights. That's exactly why this review follows our [published methodology](/en/platforms/methodology/) with a verifiable score per criterion — and why Redlights gets full credit where it earns it, because on moderation documentation it beats both Kinky and Sexjobs.
+**Disclosure first:** escortwijzer.nl is made by the team behind Intimate.nl, a competitor of Redlights. That's exactly why this review follows our [published methodology](/en/platforms/methodology/) with a verifiable score per criterion — and why Redlights gets full credit where it earns it, because on moderation documentation it beats both Kinky and Sexjobs.
 
 ## What is Redlights.nl?
 

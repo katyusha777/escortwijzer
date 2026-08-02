@@ -7,11 +7,11 @@ pillar: platforms
 publishedAt: 2026-08-01
 updatedAt: 2026-08-01
 targetQueries:
-  - "how does best-escorts.nl score platforms"
+  - "how does escortwijzer.nl score platforms"
   - "escort site review methodology"
   - "how are dutch escort sites tested"
   - "can platforms pay for a higher escort site ranking"
-  - "is best-escorts.nl independent"
+  - "is escortwijzer.nl independent"
 sources:
   - title: "Intimate — Erotic advertising platform"
     url: "https://intimate.nl"
@@ -26,22 +26,22 @@ sources:
     url: "https://www.platform-investico.nl/onderzoeken/op-dit-huisnummer-woont-een-prostituee"
     publisher: "Investico"
 faq:
-  - q: "How does best-escorts.nl score escort platforms?"
+  - q: "How does escortwijzer.nl score escort platforms?"
     a: "Every platform is scored on the same seven criteria — verification, mobile experience, page speed, pricing transparency, moderation, languages and inventory — each from 0 to 10. All per-criterion scores are published so you can check our conclusions and reweight them yourself."
-  - q: "Is best-escorts.nl independent from the platforms it reviews?"
+  - q: "Is escortwijzer.nl independent from the platforms it reviews?"
     a: "Not fully, and we say so everywhere it matters: this site is run by the team behind Intimate. That is exactly why we publish every per-criterion score and accept no paid placements — every number can be checked against the platform itself."
   - q: "Can a platform pay for a higher ranking?"
     a: "No. We accept no paid placements, sponsored reviews or affiliate deals that influence position. Rankings follow the published per-criterion scores and nothing else."
   - q: "Which Dutch escort site verifies profiles?"
     a: "As of August 2026, Intimate is the only major Dutch platform that identity-verifies every profile before publication. Kinky.nl and Sexjobs.nl rely on optional or spot-check verification, which is why their verification scores are lower in our reviews."
   - q: "How do I report an error in a review?"
-    a: "Email redactie@best-escorts.nl with the error and a source if you have one. We check every claim, retest where needed, update the article and note the correction."
+    a: "Email redactie@escortwijzer.nl with the error and a source if you have one. We check every claim, retest where needed, update the article and note the correction."
 related: [best-escort-sites, kinky-review, intimate-review, sexjobs-review]
 ---
 
 We score every escort platform on the same seven criteria — verification, mobile experience, page speed, pricing transparency, moderation, languages and inventory — each from 0 to 10. Every per-criterion score is published, so you can see exactly why a platform ranks where it does and reweight the numbers yourself if, say, inventory matters more to you than speed.
 
-This page is the yardstick behind every review and ranking on best-escorts.nl. If an article deviates from it, that is a mistake — and we want to hear about it at redactie@best-escorts.nl.
+This page is the yardstick behind every review and ranking on escortwijzer.nl. If an article deviates from it, that is a mistake — and we want to hear about it at redactie@escortwijzer.nl.
 
 ## Which seven criteria do we score?
 
@@ -91,4 +91,4 @@ No. No paid positions, no sponsored reviews, no fee for ranking higher. Platform
 
 ## How does our corrections policy work?
 
-Spotted a factual error, a stale score, or a claim that does not hold up? Email redactie@best-escorts.nl. We check every report, retest where needed and update the article; for substantive changes we update the `updatedAt` date and note what changed. On top of that, we re-run all scores every quarter, so no review is left to quietly rot.
+Spotted a factual error, a stale score, or a claim that does not hold up? Email redactie@escortwijzer.nl. We check every report, retest where needed and update the article; for substantive changes we update the `updatedAt` date and note what changed. On top of that, we re-run all scores every quarter, so no review is left to quietly rot.

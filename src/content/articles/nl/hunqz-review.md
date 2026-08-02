@@ -55,7 +55,7 @@ review:
 
 Hunqz heeft de twee dingen die een gay klant in Nederland echt wil — het grootste gay-escortaanbod en een interface die in het Nederlands werkt — en krijgt daarvoor een 5,6 gemiddeld. Wat dat cijfer omlaag trekt, is precies het onderdeel dat het zwaarst weegt: verificatie betekent hier dat een andere gebruiker een profiel heeft gemarkeerd als iemand die hij persoonlijk kent, niet dat het platform ooit een identiteit heeft gecontroleerd.
 
-**Openheid vooraf:** best-escorts.nl wordt gemaakt door het team achter Intimate.nl, dat om deels dezelfde adverteerders concurreert. Deze review volgt onze [gepubliceerde methodologie](/nl/platforms/methodologie/), met een controleerbaar cijfer per criterium — en Hunqz krijgt het volle krediet waar het dat verdient, wat op aanbod en taal meer is dan bij de meeste.
+**Openheid vooraf:** escortwijzer.nl wordt gemaakt door het team achter Intimate.nl, dat om deels dezelfde adverteerders concurreert. Deze review volgt onze [gepubliceerde methodologie](/nl/platforms/methodologie/), met een controleerbaar cijfer per criterium — en Hunqz krijgt het volle krediet waar het dat verdient, wat op aanbod en taal meer is dan bij de meeste.
 
 Eén ding vooraf helder. Onze hoofd[ranglijst van escortsites](/nl/platforms/beste-escortsites-nederland/) is een algemene lijst. Hunqz is een gay-specifiek platform, beoordeeld op dezelfde zeven criteria maar ondergebracht in de nichecategorie op onze [overzichtspagina met alle sites](/nl/platforms/alle-escortsites-nederland/) — het ontbreekt niet per ongeluk in de ranglijst, het staat waar het hoort.
 

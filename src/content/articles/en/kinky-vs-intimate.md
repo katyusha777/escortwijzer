@@ -48,7 +48,7 @@ If you want maximum choice today, use Kinky.nl: it has run since 1999 and, accor
 
 That's the whole answer in two sentences. The rest of this page shows where the numbers come from, criterion by criterion, so you can reweight them if your priorities differ.
 
-Disclosure first, because this comparison demands it: best-escorts.nl is run by the team behind Intimate. We are comparing our own platform against its biggest competitor here. That is exactly why we follow our [published methodology](/en/platforms/methodology/) to the letter, print all seven sub-scores in the table below, and name Intimate's weakness as bluntly as Kinky's. If inventory is your top criterion — a perfectly reasonable position — the conclusion of this page is simply: use Kinky.
+Disclosure first, because this comparison demands it: escortwijzer.nl is run by the team behind Intimate. We are comparing our own platform against its biggest competitor here. That is exactly why we follow our [published methodology](/en/platforms/methodology/) to the letter, print all seven sub-scores in the table below, and name Intimate's weakness as bluntly as Kinky's. If inventory is your top criterion — a perfectly reasonable position — the conclusion of this page is simply: use Kinky.
 
 ## The scores side by side
 

@@ -55,7 +55,7 @@ review:
 
 RentMen heeft het verificatiemechanisme dat de Nederlandse markt grotendeels mist — een overheids-ID plus een selfie — en dat alleen al levert echt krediet op, meer dan de meeste concurrenten kunnen claimen. Toch komt het niet verder dan een 5,1 gemiddeld, want die badge is optioneel, gebruikers melden hem op de verkeerde gezichten, het platform weert negatieve reviews en het Nederlandse aanbod is dun.
 
-**Openheid vooraf:** best-escorts.nl wordt gemaakt door het team achter Intimate.nl, dat om deels dezelfde adverteerders concurreert. Deze review volgt onze [gepubliceerde methodologie](/nl/platforms/methodologie/), met een controleerbaar cijfer per criterium, en RentMen krijgt het volle krediet waar het dat verdient — op verificatie is dat krediet echt, maar begrensd.
+**Openheid vooraf:** escortwijzer.nl wordt gemaakt door het team achter Intimate.nl, dat om deels dezelfde adverteerders concurreert. Deze review volgt onze [gepubliceerde methodologie](/nl/platforms/methodologie/), met een controleerbaar cijfer per criterium, en RentMen krijgt het volle krediet waar het dat verdient — op verificatie is dat krediet echt, maar begrensd.
 
 Een stukje context vóór de cijfers. Onze hoofd[ranglijst van escortsites](/nl/platforms/beste-escortsites-nederland/) is een algemene lijst. RentMen is een gay-specifieke internationale directory, beoordeeld op dezelfde zeven criteria maar ondergebracht in de nichecategorie op onze [overzichtspagina met alle sites](/nl/platforms/alle-escortsites-nederland/). Het staat daar bewust, niet per ongeluk buiten de ranglijst.
 

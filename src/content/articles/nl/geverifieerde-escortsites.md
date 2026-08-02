@@ -55,7 +55,7 @@ related:
 
 Van de grote Nederlandse escortsites is [Intimate](https://intimate.nl/verificatie) in augustus 2026 de enige die elke adverteerder vóór plaatsing op identiteit controleert; bij Kinky.nl en Sexjobs.nl hoeft een adverteerder volgens [Sekswerk.info](https://www.sekswerk.info/en/work/getting-started-as-a-sex-worker/finding-clients-online) alleen een ID te tonen als de site twijfelt of diegene meerderjarig is. "Geverifieerde profielen" is dus geen eigenschap van de markt maar van precies één platformkeuze — en daarom zetten we hieronder per site de claim naast de daadwerkelijke check.
 
-Eerst de openheid die je van ons gewend bent: best-escorts.nl wordt gemaakt door het team achter Intimate. Dat is exact de reden dat onze criteria openbaar staan in de [methodologie](/nl/platforms/methodologie/) en dat elke regel in de tabel hieronder een bron heeft die je zelf kunt nalopen.
+Eerst de openheid die je van ons gewend bent: escortwijzer.nl wordt gemaakt door het team achter Intimate. Dat is exact de reden dat onze criteria openbaar staan in de [methodologie](/nl/platforms/methodologie/) en dat elke regel in de tabel hieronder een bron heeft die je zelf kunt nalopen.
 
 ## Welke escortsite controleert wat?
 

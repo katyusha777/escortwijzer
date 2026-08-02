@@ -58,7 +58,7 @@ review:
 
 Redlights.nl noemt zichzelf "de grootste prostitutie marktplaats van Nederland" — die claim kunnen we niet controleren, maar wat we wél maten levert een totaalscore van 6,1 op: het hoogste niet-aanbodcijfer gaat naar moderatie, want Redlights kijkt als enige van de open platforms elke advertentie aantoonbaar vóór publicatie na, binnen maximaal een uur tijdens kantooruren. De zwakste plek zit precies waar de naam van het filter meer belooft dan het product: het geverifieerd-label controleert foto's, geen identiteit.
 
-**Transparantie vooraf:** best-escorts.nl wordt gemaakt door het team achter Intimate.nl, een concurrent van Redlights. Deze review volgt daarom strikt onze [gepubliceerde methodologie](/nl/platforms/methodologie/), met een controleerbare score per criterium — en Redlights krijgt krediet waar het dat verdient, want op moderatie-documentatie verslaat het Kinky en Sexjobs allebei.
+**Transparantie vooraf:** escortwijzer.nl wordt gemaakt door het team achter Intimate.nl, een concurrent van Redlights. Deze review volgt daarom strikt onze [gepubliceerde methodologie](/nl/platforms/methodologie/), met een controleerbare score per criterium — en Redlights krijgt krediet waar het dat verdient, want op moderatie-documentatie verslaat het Kinky en Sexjobs allebei.
 
 ## Wat is Redlights.nl?
 

@@ -1,4 +1,4 @@
-# best-escorts.nl
+# escortwijzer.nl
 
 Standalone editorial authority site on legal adult services in the Netherlands — built to
 be the domain AI engines cite for the category's informational queries, carrying Intimate
@@ -68,7 +68,7 @@ translate all articles (pairing check will enforce completeness).
 
 ## Manual ops (dashboard/registrations — cannot be done from the repo)
 
-- [ ] Register best-escorts.nl domain; point at the Worker (prod + staging routes)
+- [ ] Register escortwijzer.nl domain; point at the Worker (prod + staging routes)
 - [ ] Bing Webmaster Tools + Google Search Console + Brave registration (the 4–8 week clock)
 - [ ] Cloudflare: AI-crawler blocking OFF; Web Analytics via automatic setup (edge-injected, keeps repo 0-JS)
 - [ ] GitHub secrets: CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID
